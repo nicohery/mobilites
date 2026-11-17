@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Plougoumelen – mobilités douces</name>
+<description><![CDATA[Existant : OpenStreetMap au 2026-11-17 (© contributeurs OpenStreetMap, licence ODbL).<br/>À venir : voir data/a-venir.geojson, chaque tracé porte sa source. Les tracés « Liaison à créer » sont indicatifs.]]></description>
+<Style id="piste_bande_cyclable">
+<LineStyle><color>e641961a</color><width>5</width></LineStyle>
+</Style>
+<Style id="voie_partagee">
+<LineStyle><color>e69da900</color><width>5</width></LineStyle>
+</Style>
+<Style id="cheminement_pieton">
+<LineStyle><color>e6b67b2c</color><width>3</width></LineStyle>
+</Style>
+<Style id="chemin_rural">
+<LineStyle><color>e61d76a6</color><width>2</width></LineStyle>
+</Style>
+<Style id="intention">
+<LineStyle><color>e66f00d6</color><width>7</width></LineStyle>
+</Style>
+<Folder>
+<name>Piste ou bande cyclable</name>
+<Placemark>
+<name>Rue Notre-Dame-de-Becquerel</name>
+<description><![CDATA[<b>Type</b> : Piste ou bande cyclable<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : enrobé<br/><b>Longueur</b> : 521 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/175200531" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#piste_bande_cyclable</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.92165,47.647937 -2.921561,47.648088 -2.921477,47.648224 -2.921273,47.648499 -2.92118,47.648628 -2.921077,47.648765 -2.920976,47.648898 -2.920954,47.648922 -2.920695,47.649198 -2.920628,47.649266 -2.920567,47.649329 -2.920449,47.649513 -2.92025,47.649822 -2.920046,47.650015 -2.919577,47.650462 -2.919524,47.65053 -2.919305,47.650777 -2.919187,47.650865 -2.918908,47.651144 -2.918783,47.651261 -2.918662,47.651387 -2.918591,47.6515 -2.918294,47.652015</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>C 3</name>
+<description><![CDATA[<b>Type</b> : Piste ou bande cyclable<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 936 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/175200542" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#piste_bande_cyclable</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.918668,47.656434 -2.918304,47.657151 -2.918124,47.657489 -2.918107,47.657517 -2.917784,47.658104 -2.917755,47.658282 -2.917578,47.659364 -2.917558,47.659659 -2.917558,47.659964 -2.917573,47.660048 -2.917642,47.660293 -2.91775,47.660607 -2.918101,47.661635 -2.918322,47.662084 -2.918917,47.662969 -2.919526,47.663723 -2.919614,47.663846 -2.919698,47.664012 -2.919772,47.664259 -2.919808,47.664452</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Rue du Roi Stivan</name>
+<description><![CDATA[<b>Type</b> : Piste ou bande cyclable<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : enrobé<br/><b>Longueur</b> : 31 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/917828770" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#piste_bande_cyclable</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.921073,47.647697 -2.921478,47.647767</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>C 3</name>
+<description><![CDATA[<b>Type</b> : Piste ou bande cyclable<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 333 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1349746745" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#piste_bande_cyclable</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.919808,47.664452 -2.919819,47.66454 -2.919838,47.664708 -2.919835,47.664816 -2.919785,47.665112 -2.919535,47.665705 -2.919474,47.665864 -2.919261,47.665916 -2.91911,47.66596 -2.918521,47.666098 -2.918265,47.666183 -2.918075,47.666274 -2.917764,47.666488 -2.917574,47.666661</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Rue Notre-Dame-de-Becquerel</name>
+<description><![CDATA[<b>Type</b> : Piste ou bande cyclable<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : enrobé<br/><b>Longueur</b> : 39 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1349746751" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#piste_bande_cyclable</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.918294,47.652015 -2.918219,47.652146 -2.918124,47.652306 -2.918104,47.652341</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Rue de Tremodec</name>
+<description><![CDATA[<b>Type</b> : Piste ou bande cyclable<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : enrobé<br/><b>Longueur</b> : 260 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1449610491" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#piste_bande_cyclable</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.897009,47.668938 -2.897228,47.668794 -2.897445,47.668641 -2.89764,47.668485 -2.89782,47.668334 -2.898015,47.668127 -2.898218,47.667867 -2.898385,47.667626 -2.898486,47.667454 -2.898563,47.667293 -2.898661,47.667026 -2.898694,47.666938</coordinates></LineString>
+</Placemark>
+</Folder>
+<Folder>
+<name>Voie verte / chemin partagé piétons-vélos</name>
+<Placemark>
+<name>Voie verte / chemin partagé piétons-vélos</name>
+<description><![CDATA[<b>Type</b> : Voie verte / chemin partagé piétons-vélos<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : stabilisé<br/><b>Vélo</b> : aménagé pour les vélos<br/><b>Longueur</b> : 617 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/198650740" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#voie_partagee</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.917558,47.659964 -2.917429,47.65996 -2.917421,47.659928 -2.917449,47.659591 -2.917619,47.658242 -2.91643,47.657713 -2.916389,47.657521 -2.916361,47.657388 -2.916259,47.65698 -2.916414,47.656376 -2.916387,47.656138 -2.916463,47.655516 -2.91675,47.654992</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Voie verte / chemin partagé piétons-vélos</name>
+<description><![CDATA[<b>Type</b> : Voie verte / chemin partagé piétons-vélos<br/><b>Statut</b> : existant<br/><b>Vélo</b> : aménagé pour les vélos<br/><b>Longueur</b> : 258 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1449610492" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#voie_partagee</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.894824,47.670563 -2.89488,47.670555 -2.895073,47.670259 -2.895186,47.670085 -2.895304,47.669942 -2.895404,47.669843 -2.895493,47.669771 -2.895617,47.669692 -2.89585,47.669566 -2.896153,47.669418 -2.896398,47.669305 -2.896641,47.669183 -2.896699,47.669181 -2.896754,47.669189 -2.896784,47.669192 -2.896832,47.66917 -2.896907,47.669139 -2.896916,47.669107 -2.896968,47.669029 -2.897016,47.668991 -2.897009,47.668938</coordinates></LineString>
+</Placemark>
+</Folder>
+<Folder>
+<name>Sentier ou cheminement piéton</name>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Vélo</b> : vélos autorisés<br/><b>Longueur</b> : 136 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/129204483" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.925196,47.644852 -2.925167,47.64493 -2.925118,47.64504 -2.925082,47.645103 -2.925031,47.645142 -2.92497,47.645168 -2.924893,47.645198 -2.924726,47.645238 -2.924435,47.645283 -2.92421,47.645291 -2.924021,47.645296 -2.923816,47.645291 -2.923751,47.645248</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Longueur</b> : 314 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/129205794" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.929052,47.647225 -2.928996,47.647517 -2.928962,47.647617 -2.928939,47.647706 -2.928979,47.647801 -2.929128,47.647906 -2.929187,47.647987 -2.929197,47.648075 -2.929443,47.648205 -2.93006,47.648519 -2.930156,47.648566 -2.930155,47.648606 -2.930124,47.648648 -2.929946,47.648759 -2.929924,47.648771 -2.929856,47.648927 -2.929768,47.649039 -2.929648,47.649071 -2.929572,47.649185 -2.929519,47.649315 -2.92951,47.649376 -2.929424,47.649495</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Longueur</b> : 7 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/129205798" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.922622,47.646322 -2.922708,47.646299</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 147 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/198650737" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.917939,47.653367 -2.917788,47.653664 -2.917782,47.65378 -2.917761,47.65395 -2.917728,47.654091 -2.917718,47.654166 -2.917675,47.654282 -2.917648,47.654333 -2.917637,47.654488 -2.917594,47.654553 -2.917451,47.654592</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : non revêtu<br/><b>Vélo</b> : vélo à la main<br/><b>Longueur</b> : 1184 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/198650741" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.926336,47.655368 -2.926338,47.655641 -2.926092,47.655771 -2.926178,47.655915 -2.926064,47.656116 -2.925839,47.656275 -2.92571,47.656485 -2.925281,47.656673 -2.924849,47.656749 -2.924757,47.656795 -2.92468,47.65694 -2.924665,47.657137 -2.924753,47.657526 -2.924755,47.657858 -2.924637,47.658002 -2.924161,47.658409 -2.92356,47.658698 -2.92372,47.658772 -2.923817,47.658906 -2.923833,47.659044 -2.92371,47.659413 -2.923596,47.659571 -2.92357,47.65969 -2.923606,47.65987 -2.923586,47.65995 -2.923527,47.660048 -2.923413,47.660117 -2.923346,47.660136 -2.923259,47.660174 -2.923097,47.660311 -2.922935,47.660413 -2.922851,47.660449 -2.922722,47.660492 -2.922479,47.660391 -2.922247,47.66025 -2.922036,47.660181 -2.921811,47.660051 -2.921355,47.659897 -2.920988,47.65988 -2.920373,47.659906 -2.9201,47.659865 -2.91974,47.659675 -2.919531,47.659637 -2.919263,47.659509 -2.919177,47.659391 -2.918984,47.659314 -2.918506,47.659437 -2.91826,47.659838 -2.9179,47.660055 -2.917651,47.659985</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : herbe<br/><b>Longueur</b> : 207 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/267657037" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.92452,47.65297 -2.92463,47.652628 -2.924794,47.652543 -2.924946,47.65236 -2.924988,47.651901 -2.924997,47.651797 -2.92497,47.651626 -2.925048,47.651497 -2.925384,47.651314</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : platelage bois<br/><b>Longueur</b> : 2 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/267678734" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.925054,47.644601 -2.925023,47.6446</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Longueur</b> : 118 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/267678738" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.925535,47.644715 -2.925689,47.644632 -2.925754,47.644587 -2.925692,47.64452 -2.925453,47.644444 -2.925359,47.644447 -2.925329,47.644563 -2.925319,47.644661 -2.925343,47.644746 -2.925054,47.644601</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Longueur</b> : 529 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/267678760" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.922708,47.646299 -2.923086,47.646327 -2.923293,47.646338 -2.923445,47.646295 -2.923593,47.646272 -2.923651,47.646244 -2.923763,47.646192 -2.92389,47.646099 -2.923982,47.646057 -2.924103,47.645993 -2.924194,47.645897 -2.924355,47.645807 -2.924718,47.645736 -2.924973,47.645716 -2.925264,47.645712 -2.925775,47.645734 -2.926019,47.645817 -2.926271,47.645941 -2.92643,47.646085 -2.926653,47.646245 -2.926871,47.646344 -2.927525,47.646591 -2.927927,47.64681 -2.928276,47.646966 -2.928494,47.647073 -2.928705,47.6472</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 21 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/267678770" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.923323,47.645279 -2.923326,47.645326 -2.923338,47.64547</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Longueur</b> : 109 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/267678774" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.923338,47.64547 -2.923348,47.645584 -2.923302,47.645777 -2.923227,47.64592 -2.923109,47.646014 -2.922868,47.646186 -2.922708,47.646299</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : herbe<br/><b>Longueur</b> : 49 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/267678776" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.925023,47.6446 -2.924739,47.644512 -2.924399,47.644473</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 9 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/267678778" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.92332,47.645198 -2.923323,47.645279</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Longueur</b> : 138 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/302155081" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.909124,47.660653 -2.909399,47.660742 -2.909578,47.660785 -2.909931,47.660875 -2.910255,47.660864 -2.910514,47.660788 -2.910754,47.6607 -2.910849,47.660709</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 417 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/302155195" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.911817,47.661337 -2.912022,47.66133 -2.912282,47.661414 -2.912498,47.661523 -2.912666,47.661676 -2.912741,47.66176 -2.912876,47.661963 -2.912909,47.662145 -2.912974,47.662244 -2.913152,47.662346 -2.913309,47.662462 -2.913411,47.662531 -2.913617,47.662651 -2.913752,47.662797 -2.913903,47.662884 -2.914022,47.662957 -2.914125,47.663041 -2.914195,47.66311 -2.914325,47.663146 -2.914444,47.663205 -2.914492,47.663317 -2.914557,47.66343 -2.914671,47.663518 -2.914784,47.663536 -2.915038,47.663525 -2.915395,47.6635 -2.915665,47.663456</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 431 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/302156373" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.904684,47.65604 -2.905137,47.656034 -2.905461,47.656029 -2.905658,47.656051 -2.9058,47.656098 -2.90596,47.65612 -2.906137,47.656115 -2.906292,47.656111 -2.906505,47.656095 -2.906905,47.656023 -2.907112,47.656009 -2.907453,47.655983 -2.907719,47.655978 -2.908313,47.655978 -2.909261,47.656025 -2.909576,47.656036 -2.90997,47.656078 -2.910163,47.656071 -2.910282,47.656056 -2.91039,47.656047</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 1525 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/302156376" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.910232,47.666529 -2.910615,47.666607 -2.910881,47.666621 -2.911243,47.666599 -2.911569,47.666653 -2.911941,47.6666 -2.91222,47.66659 -2.912387,47.666634 -2.912517,47.666703 -2.912695,47.666778 -2.9129,47.666842 -2.913044,47.666859 -2.913189,47.666848 -2.913345,47.666851 -2.913456,47.666882 -2.913609,47.666953 -2.913779,47.66699 -2.913956,47.666969 -2.914203,47.666957 -2.914333,47.666995 -2.914387,47.667059 -2.91456,47.667235 -2.914728,47.667373 -2.914939,47.66746 -2.914974,47.667838 -2.914966,47.66832 -2.915046,47.668496 -2.915218,47.668692 -2.914991,47.668736 -2.914632,47.668802 -2.914208,47.668825 -2.913874,47.668853 -2.913637,47.668931 -2.913359,47.669178 -2.913066,47.669474 -2.91278,47.66982 -2.912453,47.670067 -2.912312,47.670303 -2.911933,47.670556 -2.911771,47.670714 -2.911679,47.670816 -2.911523,47.670987 -2.911382,47.671136 -2.91129,47.671286 -2.911123,47.671642 -2.910971,47.671912 -2.910793,47.672166 -2.910528,47.672326 -2.910451,47.67237 -2.910215,47.672501 -2.909972,47.672596 -2.909809,47.67265 -2.909704,47.672652 -2.909615,47.672654 -2.90941,47.672585 -2.909296,47.672567 -2.90915,47.672603 -2.908999,47.672643 -2.90888,47.672658 -2.90882,47.672672 -2.908701,47.672683 -2.908599,47.672672 -2.908415,47.672621 -2.908312,47.67257 -2.908161,47.67253 -2.908026,47.672501 -2.907907,47.672487 -2.907761,47.672476 -2.907577,47.672472 -2.907323,47.672599 -2.907123,47.672803 -2.906966,47.673073 -2.90685,47.673199 -2.906529,47.673549 -2.906296,47.673717 -2.906229,47.673772</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 642 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/302156377" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.90685,47.673199 -2.907685,47.673338 -2.907929,47.673422 -2.908129,47.673462 -2.908345,47.673473 -2.908521,47.673471 -2.908631,47.673469 -2.908961,47.673476 -2.909107,47.673437 -2.909247,47.673415 -2.909485,47.673415 -2.909674,47.673447 -2.909815,47.673473 -2.909876,47.673492 -2.909957,47.673513 -2.91003,47.67353 -2.910069,47.673529 -2.910166,47.673527 -2.910631,47.673542 -2.910772,47.673542 -2.910915,47.673579 -2.910997,47.673638 -2.911107,47.673662 -2.911243,47.673687 -2.911371,47.67369 -2.911496,47.673678 -2.911651,47.673632 -2.911694,47.67376 -2.911714,47.674129 -2.911614,47.674318 -2.911301,47.674645 -2.911026,47.67487 -2.910791,47.675111 -2.910512,47.675176 -2.910344,47.675212 -2.91022,47.675252 -2.910107,47.675311 -2.909939,47.675358 -2.909777,47.675409</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 473 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/302156379" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.890798,47.666388 -2.891703,47.666986 -2.892412,47.66761 -2.892664,47.66771 -2.892873,47.667838 -2.893066,47.668079 -2.893211,47.668211 -2.893673,47.668558 -2.893772,47.668644 -2.89389,47.668679 -2.894011,47.66868 -2.895539,47.668478</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 733 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/499038867" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.899042,47.680238 -2.899321,47.679949 -2.8994,47.679759 -2.899357,47.679574 -2.898991,47.679041 -2.899038,47.679008 -2.899221,47.678876 -2.899491,47.678773 -2.899762,47.678632 -2.899979,47.678577 -2.900435,47.678828 -2.900605,47.678922 -2.901149,47.679544 -2.901431,47.680091 -2.902541,47.679803 -2.903297,47.679783 -2.904053,47.679773 -2.904228,47.679666 -2.904374,47.679537 -2.904665,47.679355 -2.904793,47.679177</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 162 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/499038868" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.89956,47.680591 -2.899914,47.680689 -2.900277,47.680633 -2.900842,47.680347 -2.901431,47.680091</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier Côtier</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Longueur</b> : 1175 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/554111620" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.923399,47.66364 -2.923634,47.663839 -2.924618,47.664294 -2.924846,47.664583 -2.924786,47.664804 -2.924846,47.665133 -2.924806,47.665359 -2.924431,47.665774 -2.924457,47.666423 -2.924679,47.666689 -2.925134,47.667113 -2.924987,47.667623 -2.924732,47.667695 -2.924518,47.667862 -2.923728,47.668001 -2.923554,47.667889 -2.923337,47.667754 -2.923031,47.667546 -2.922763,47.667388 -2.922221,47.667158 -2.921873,47.667032 -2.921618,47.666955 -2.921317,47.667032 -2.921056,47.666969 -2.920158,47.666987 -2.919569,47.667243 -2.919178,47.66743 -2.918933,47.667438 -2.917741,47.666951 -2.917342,47.666893</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 54 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/554111963" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.917089,47.667415 -2.917064,47.667456 -2.917025,47.667566 -2.916994,47.667563 -2.916967,47.667576 -2.917084,47.667649 -2.917085,47.667665 -2.917056,47.667674 -2.916956,47.667645 -2.916862,47.667624</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Longueur</b> : 311 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/554111964" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.916862,47.667624 -2.91682,47.667631 -2.916608,47.66781 -2.916175,47.668264 -2.91598,47.668484 -2.915908,47.668532 -2.915796,47.668291 -2.915757,47.668135 -2.915836,47.668044 -2.91594,47.667973 -2.916034,47.667859 -2.916047,47.667802 -2.916039,47.667745 -2.915961,47.667665 -2.915836,47.66762 -2.914939,47.66746</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Longueur</b> : 309 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/709180471" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.922826,47.666106 -2.922885,47.665951 -2.922929,47.665813 -2.922951,47.665687 -2.922896,47.665529 -2.922745,47.665421 -2.922621,47.665287 -2.922547,47.665132 -2.922478,47.664924 -2.922404,47.664766 -2.922562,47.664576 -2.922694,47.664401 -2.92272,47.664233 -2.922907,47.66406 -2.923163,47.663803 -2.923295,47.663687 -2.923399,47.66364</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 496 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/826106795" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.909777,47.675409 -2.909389,47.675535 -2.908922,47.675701 -2.908525,47.675784 -2.908112,47.675806 -2.908074,47.675733 -2.908326,47.675661 -2.908536,47.675549 -2.908847,47.675433 -2.909088,47.675253 -2.909233,47.675072 -2.909244,47.674845 -2.90933,47.674726 -2.9097,47.674671 -2.910051,47.67464 -2.910279,47.674611 -2.91031,47.674597 -2.910293,47.674563 -2.91027,47.674466 -2.910242,47.674314 -2.910217,47.674213 -2.910173,47.67404 -2.910132,47.673857 -2.910097,47.673656 -2.91007,47.673573 -2.91003,47.67353</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 1087 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/826109065" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.911651,47.673632 -2.911658,47.673558 -2.911642,47.673489 -2.911573,47.673326 -2.911525,47.673235 -2.911376,47.67318 -2.911209,47.673163 -2.911136,47.673119 -2.911136,47.673076 -2.911175,47.673037 -2.911261,47.673009 -2.911438,47.672964 -2.911519,47.672902 -2.911568,47.672829 -2.911701,47.672155 -2.911702,47.67196 -2.911728,47.671845 -2.911864,47.671591 -2.912125,47.67114 -2.912226,47.67097 -2.912421,47.670793 -2.912473,47.670578 -2.91263,47.670316 -2.912674,47.67017 -2.912783,47.670134 -2.912921,47.67002 -2.913074,47.669881 -2.91322,47.669724 -2.913311,47.669573 -2.913343,47.669537 -2.91341,47.669529 -2.913601,47.66956 -2.913764,47.669546 -2.913911,47.669479 -2.914073,47.669447 -2.914339,47.669436 -2.915525,47.669404 -2.916152,47.669352 -2.916735,47.669307 -2.917108,47.669194 -2.917424,47.669032 -2.917629,47.668879 -2.917936,47.668611 -2.918029,47.668522 -2.918061,47.668449 -2.917952,47.668407 -2.917776,47.66843 -2.917265,47.668559 -2.917019,47.668556 -2.916654,47.668498 -2.91598,47.668484</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 55 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/826109066" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.915908,47.668532 -2.915218,47.668692</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 554 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/826110490" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.90941,47.672585 -2.908947,47.672346 -2.908854,47.672278 -2.908796,47.672217 -2.908799,47.672153 -2.908909,47.672011 -2.909046,47.671792 -2.909212,47.671368 -2.909284,47.67107 -2.909373,47.6706 -2.909394,47.67034 -2.909436,47.670294 -2.909535,47.670294 -2.909866,47.670438 -2.910776,47.670728 -2.910929,47.670746 -2.911083,47.670749 -2.911209,47.670727 -2.911405,47.670647 -2.9117,47.67044 -2.912025,47.670138 -2.91235,47.670035 -2.912453,47.670067</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 20 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/826110491" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.912453,47.670067 -2.912674,47.67017</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Longueur</b> : 559 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/835108020" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.914996,47.63448 -2.915131,47.634491 -2.915229,47.634609 -2.915739,47.63468 -2.916626,47.634633 -2.916953,47.634483 -2.917554,47.634394 -2.917984,47.63428 -2.918688,47.634093 -2.918804,47.63388 -2.919284,47.633857 -2.920909,47.634243 -2.92137,47.634793</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Longueur</b> : 256 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/835261277" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.911817,47.661337 -2.911911,47.660946 -2.911852,47.660755 -2.911498,47.660437 -2.911493,47.660357 -2.911772,47.659985 -2.911959,47.659533 -2.912002,47.659281 -2.911875,47.659249</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 159 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/863903619" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.903425,47.632882 -2.903572,47.632988 -2.903977,47.633243 -2.905021,47.633817</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 426 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/868567988" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.899038,47.679008 -2.898909,47.678654 -2.898721,47.678372 -2.89849,47.678065 -2.898147,47.677877 -2.897273,47.677621 -2.896511,47.677375 -2.895599,47.677292 -2.894918,47.677252 -2.894584,47.677236</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 488 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/876121005" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.904793,47.679177 -2.904986,47.678977 -2.904943,47.678749 -2.904686,47.678453 -2.904503,47.678724 -2.903742,47.678677 -2.90283,47.678735 -2.902341,47.678572 -2.90203,47.678955 -2.901505,47.679291 -2.900435,47.678828</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Vélo</b> : vélos autorisés<br/><b>Longueur</b> : 53 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/888586002" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.925904,47.644726 -2.925632,47.644718 -2.925535,47.644715 -2.925343,47.644746 -2.925296,47.644758 -2.925239,47.64481</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Vélo</b> : vélos autorisés<br/><b>Longueur</b> : 6 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/888586003" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.925239,47.64481 -2.925196,47.644852</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 67 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/888626702" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.929634,47.647366 -2.929821,47.647437 -2.929863,47.647463 -2.92989,47.647489 -2.929902,47.647512 -2.929912,47.647556 -2.929884,47.647651 -2.929831,47.647795 -2.929819,47.64787</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : enrobé<br/><b>Longueur</b> : 23 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/899175091" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.909418,47.6645 -2.909492,47.664301</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : béton<br/><b>Longueur</b> : 35 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/899175093" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.909264,47.664793 -2.909361,47.664541 -2.909418,47.6645</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : herbe<br/><b>Longueur</b> : 52 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/899175097" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.910436,47.664069 -2.910488,47.664039 -2.910322,47.664005 -2.909965,47.663929 -2.909891,47.663914</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : herbe<br/><b>Longueur</b> : 14 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/899175098" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.910322,47.664005 -2.910378,47.663889</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 76 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/899175099" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.909492,47.664301 -2.909511,47.664247 -2.909527,47.664202 -2.909563,47.664208 -2.909684,47.663872 -2.909377,47.663824</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : enrobé<br/><b>Longueur</b> : 129 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/899175113" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.904005,47.663363 -2.904081,47.663412 -2.904274,47.663461 -2.904362,47.66347 -2.904523,47.663432 -2.904592,47.663412 -2.904724,47.663248 -2.904769,47.663193 -2.905039,47.663103 -2.905156,47.663077 -2.905431,47.663075</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : enrobé<br/><b>Longueur</b> : 41 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/899175114" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.905039,47.663103 -2.905033,47.66301 -2.905031,47.662956 -2.905362,47.662958</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : enrobé<br/><b>Longueur</b> : 450 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/899175115" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.909174,47.662372 -2.909323,47.662402 -2.909376,47.662352 -2.909439,47.662333 -2.909523,47.66234 -2.909596,47.662369 -2.909692,47.66243 -2.909821,47.662541 -2.909934,47.662626 -2.910079,47.662745 -2.910119,47.662808 -2.91014,47.662908 -2.910153,47.663004 -2.910176,47.663039 -2.9102,47.663271 -2.910177,47.663324 -2.91014,47.663411 -2.909891,47.663914 -2.909749,47.664201 -2.909713,47.664226 -2.909663,47.664248 -2.909591,47.664259 -2.909511,47.664247 -2.908707,47.664094 -2.908644,47.664063 -2.908617,47.664024 -2.908609,47.663984 -2.908614,47.663961 -2.908514,47.66394 -2.908436,47.663918 -2.908383,47.663974 -2.908321,47.663998 -2.908217,47.663997 -2.908118,47.663964 -2.908037,47.66393 -2.907982,47.663985 -2.907942,47.664022 -2.907879,47.663987 -2.907811,47.663985 -2.907751,47.664004 -2.907713,47.664026 -2.907621,47.664049</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : enrobé<br/><b>Longueur</b> : 263 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/899175116" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.908037,47.66393 -2.907948,47.663882 -2.907844,47.663806 -2.90707,47.663123 -2.907011,47.663018 -2.906994,47.662942 -2.906886,47.662935 -2.906815,47.662918 -2.906778,47.662961 -2.906728,47.662988 -2.906645,47.662993 -2.906347,47.662967 -2.905922,47.66295 -2.905362,47.662958</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : enrobé<br/><b>Longueur</b> : 237 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/899175117" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.906994,47.662942 -2.907014,47.662837 -2.907066,47.662675 -2.907124,47.662464 -2.907157,47.662376 -2.9072,47.662318 -2.907261,47.66227 -2.907344,47.662236 -2.907449,47.662216 -2.908766,47.662159 -2.908926,47.662171 -2.909043,47.662193 -2.909111,47.662233 -2.909153,47.662299 -2.909174,47.662372</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : platelage bois<br/><b>Longueur</b> : 110 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/938859703" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.908021,47.659999 -2.907961,47.659957 -2.907915,47.659885 -2.907869,47.659814 -2.907779,47.659735 -2.907678,47.659656 -2.907601,47.659596 -2.907493,47.659544 -2.9074,47.659521 -2.907311,47.659517 -2.907185,47.659548 -2.907141,47.659596 -2.907068,47.659602 -2.906968,47.659559</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 43 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/943998758" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.929924,47.648771 -2.929344,47.648776</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 393 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/943998766" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.915203,47.650571 -2.915142,47.650592 -2.915099,47.650587 -2.914392,47.650382 -2.914394,47.650433 -2.91432,47.650545 -2.914233,47.650596 -2.914193,47.650658 -2.914156,47.65084 -2.914104,47.650912 -2.913878,47.651048 -2.913564,47.651169 -2.913398,47.651265 -2.913142,47.651427 -2.913022,47.651534 -2.912854,47.651646 -2.912793,47.651664 -2.912507,47.651593 -2.912473,47.651598 -2.912184,47.651804 -2.911979,47.651943 -2.911938,47.652119 -2.91189,47.652374 -2.911882,47.65242</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 170 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/969794346" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.908521,47.673471 -2.908483,47.673421 -2.908379,47.673393 -2.908323,47.673349 -2.908342,47.673279 -2.908359,47.673204 -2.908349,47.673128 -2.908355,47.673097 -2.908387,47.673078 -2.908529,47.673073 -2.90866,47.673034 -2.908749,47.67299 -2.908812,47.672941 -2.908897,47.672885 -2.909007,47.67285 -2.909184,47.672825 -2.909437,47.672809 -2.909598,47.67278 -2.909676,47.672731 -2.909704,47.672652</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 22 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/969794347" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.911933,47.670556 -2.9117,47.67044</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Longueur</b> : 3 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1019742890" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.926336,47.655368 -2.926329,47.655344</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Longueur</b> : 160 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1019742891" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.926329,47.655344 -2.926282,47.655181 -2.926032,47.654648 -2.925826,47.654227 -2.925491,47.65408</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : sable<br/><b>Longueur</b> : 150 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1019742892" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.925491,47.65408 -2.925051,47.653886 -2.924785,47.653609 -2.924552,47.653185 -2.92452,47.65297</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Longueur</b> : 306 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1019742893" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.925384,47.651314 -2.925698,47.650656 -2.926096,47.650331 -2.926394,47.650126 -2.926912,47.649952 -2.927773,47.649799 -2.928181,47.649678 -2.928227,47.649629</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Longueur</b> : 6 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1019742894" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.928227,47.649629 -2.928244,47.649572</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : herbe<br/><b>Longueur</b> : 170 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1024652297" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.920922,47.65309 -2.920882,47.653134 -2.919243,47.654111</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : herbe<br/><b>Longueur</b> : 181 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1024652298" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.918464,47.653135 -2.920882,47.653134</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 459 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1024652300" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.887024,47.653336 -2.887081,47.653504 -2.886911,47.653913 -2.886532,47.655029 -2.886494,47.655265 -2.886286,47.655546 -2.886106,47.655718 -2.885717,47.656356 -2.885064,47.657185</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 100 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1024670051" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.910451,47.67237 -2.910602,47.672612 -2.910681,47.672669 -2.911132,47.672831 -2.911164,47.672878 -2.911175,47.673037</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 1358 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1024670052" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.917717,47.67208 -2.918093,47.672058 -2.918415,47.672089 -2.91873,47.672185 -2.919172,47.672387 -2.919533,47.672533 -2.919852,47.672661 -2.919951,47.672711 -2.92005,47.672747 -2.920138,47.672754 -2.920241,47.672752 -2.920354,47.672728 -2.920535,47.672683 -2.920641,47.672664 -2.920754,47.672654 -2.920839,47.672659 -2.920938,47.672692 -2.921795,47.672969 -2.921918,47.673023 -2.922099,47.673116 -2.922209,47.673181 -2.922315,47.673221 -2.9224,47.673209 -2.922509,47.673174 -2.922619,47.673081 -2.922814,47.672971 -2.922948,47.67294 -2.923047,47.67294 -2.923136,47.672983 -2.924102,47.673486 -2.924169,47.6735 -2.92424,47.673502 -2.924364,47.673476 -2.924424,47.673471 -2.924477,47.673495 -2.92453,47.673531 -2.924764,47.673822 -2.924845,47.673915 -2.924948,47.673989 -2.925026,47.674046 -2.925143,47.674124 -2.925242,47.674198 -2.925312,47.674251 -2.925429,47.674296 -2.925628,47.674329 -2.926381,47.674401 -2.926856,47.674465 -2.927454,47.674561 -2.928774,47.674796 -2.929751,47.674947 -2.930066,47.674982 -2.930409,47.675013 -2.930543,47.675032 -2.930692,47.675044 -2.930759,47.675032 -2.930784,47.674994 -2.930781,47.674944 -2.930745,47.674861 -2.930717,47.674806 -2.930742,47.674758 -2.930873,47.674734 -2.931304,47.674754 -2.931389,47.674742 -2.931439,47.674658 -2.931496,47.67436 -2.931524,47.674284 -2.931626,47.674256 -2.931881,47.674291 -2.93214,47.674363 -2.932306,47.674446 -2.932405,47.674522 -2.932536,47.674604 -2.932745,47.674718 -2.93289,47.67478</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 442 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1024670381" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.890191,47.666595 -2.889552,47.666394 -2.88913,47.666228 -2.888571,47.665925 -2.888186,47.665826 -2.887991,47.665813 -2.887867,47.665835 -2.886989,47.666076 -2.886819,47.66609 -2.886679,47.666085 -2.886552,47.666097 -2.886425,47.666119 -2.885389,47.666522 -2.88507,47.666592 -2.884902,47.666673</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Longueur</b> : 83 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1040557055" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.915347,47.649035 -2.91525,47.648936 -2.915201,47.648911 -2.915099,47.648924 -2.914973,47.648955 -2.914862,47.649014 -2.914757,47.649082 -2.914648,47.649153 -2.914595,47.649172 -2.914508,47.649102</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : gravier<br/><b>Longueur</b> : 24 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1040557290" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.914252,47.649415 -2.914466,47.649576</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 99 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1064868083" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.914339,47.669436 -2.914363,47.669663 -2.91439,47.669717 -2.914444,47.669747 -2.914547,47.669801 -2.91457,47.669856 -2.91456,47.669924 -2.914503,47.669982 -2.914233,47.670186</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Longueur</b> : 64 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1190328124" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.915765,47.654488 -2.91571,47.654416 -2.915539,47.654315 -2.915422,47.654238 -2.915091,47.654179</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Longueur</b> : 86 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1215830913" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.90724,47.677827 -2.907465,47.677818 -2.907841,47.677898 -2.908062,47.677987 -2.908238,47.678129</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 242 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1215830914" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.907197,47.677673 -2.90724,47.677827 -2.906371,47.677955 -2.906081,47.678028 -2.905856,47.678129 -2.905706,47.678215 -2.905158,47.678215 -2.904837,47.678165 -2.904686,47.678453</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 11 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1215830915" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.907151,47.677577 -2.907197,47.677673</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Longueur</b> : 109 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1248796047" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.925239,47.64481 -2.925308,47.644914 -2.925411,47.645006 -2.925494,47.645035 -2.925786,47.645076 -2.926055,47.645101 -2.926362,47.645143 -2.92649,47.645187</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : béton<br/><b>Longueur</b> : 28 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1278746761" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.909891,47.663914 -2.909684,47.663872 -2.90972,47.663768</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : gravier<br/><b>Longueur</b> : 935 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1313456471" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.921577,47.626095 -2.921526,47.62613 -2.921471,47.626176 -2.921324,47.62628 -2.921117,47.626435 -2.921025,47.626525 -2.920971,47.626601 -2.920833,47.626847 -2.920736,47.626995 -2.920703,47.627032 -2.920444,47.627183 -2.920239,47.627296 -2.919841,47.627458 -2.919736,47.627501 -2.919379,47.627582 -2.919204,47.627637 -2.919029,47.627661 -2.918721,47.627687 -2.918496,47.627714 -2.918274,47.627808 -2.918054,47.627927 -2.917763,47.628132 -2.917459,47.628359 -2.917126,47.62861 -2.916883,47.62879 -2.916661,47.62894 -2.916374,47.629154 -2.916196,47.629231 -2.915816,47.629367 -2.915331,47.62954 -2.915026,47.629647 -2.914708,47.629725 -2.914325,47.629804 -2.914095,47.629851 -2.913542,47.629982 -2.913151,47.630071 -2.912874,47.63018 -2.912579,47.630278 -2.912262,47.630387 -2.911967,47.630325 -2.911514,47.630221</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : stabilisé<br/><b>Longueur</b> : 31 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1325597487" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.913398,47.654102 -2.913249,47.653841</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : herbe<br/><b>Vélo</b> : vélos interdits<br/><b>Longueur</b> : 48 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1325597584" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.914201,47.65385 -2.913619,47.653662</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : stabilisé<br/><b>Longueur</b> : 157 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1325602896" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.92025,47.649822 -2.918216,47.649468</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : herbe<br/><b>Longueur</b> : 183 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1325603699" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.922924,47.651037 -2.923004,47.651107 -2.923147,47.651193 -2.924988,47.651901</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : stabilisé<br/><b>Vélo</b> : vélos autorisés<br/><b>Longueur</b> : 51 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1339142049" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.921124,47.651548 -2.920691,47.651506 -2.920702,47.651395 -2.920641,47.65136</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 46 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1349746744" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.911476,47.661667 -2.911628,47.661589 -2.911703,47.661436 -2.911817,47.661337</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier Côtier</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Longueur</b> : 692 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1349746746" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.917651,47.659985 -2.917674,47.660088 -2.917706,47.660196 -2.91774,47.660271 -2.917816,47.660368 -2.917923,47.660372 -2.918146,47.66028 -2.918286,47.660248 -2.918447,47.66027 -2.918587,47.660274 -2.918799,47.660294 -2.919265,47.660412 -2.919556,47.660625 -2.919654,47.660678 -2.919792,47.660723 -2.920453,47.660858 -2.920805,47.66093 -2.921149,47.661034 -2.921344,47.661111 -2.921525,47.661201 -2.92209,47.661364 -2.922357,47.661505 -2.92294,47.661925 -2.923091,47.662038 -2.923154,47.662131 -2.923258,47.662271 -2.923368,47.662587 -2.923261,47.663305 -2.923426,47.663537 -2.923399,47.66364</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : non revêtu<br/><b>Vélo</b> : vélo à la main<br/><b>Longueur</b> : 7 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1349746748" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.917651,47.659985 -2.917558,47.659964</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 972 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1372178426" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.914038,47.672624 -2.914094,47.672688 -2.914064,47.672773 -2.914097,47.672842 -2.913963,47.672984 -2.913829,47.673077 -2.913736,47.673109 -2.913469,47.673017 -2.913333,47.672993 -2.913245,47.672992 -2.9132,47.673026 -2.913142,47.673018 -2.913028,47.672953 -2.912957,47.672985 -2.912911,47.673102 -2.912949,47.673403 -2.913074,47.67356 -2.913202,47.673607 -2.913228,47.673645 -2.913181,47.673927 -2.913238,47.674009 -2.913249,47.674111 -2.913251,47.674249 -2.913204,47.674392 -2.913166,47.67441 -2.913173,47.674444 -2.913216,47.674478 -2.913324,47.674471 -2.913407,47.674483 -2.913456,47.674506 -2.913558,47.674621 -2.913533,47.674822 -2.913419,47.674945 -2.913325,47.675069 -2.913243,47.675159 -2.913159,47.675271 -2.912711,47.675446 -2.912606,47.675517 -2.912497,47.675557 -2.912392,47.675622 -2.912215,47.675701 -2.91208,47.675748 -2.912001,47.675783 -2.91186,47.6758 -2.911737,47.67586 -2.911669,47.675916 -2.911555,47.675984 -2.911378,47.676037 -2.91123,47.676104 -2.910782,47.676249 -2.910603,47.67634 -2.910464,47.67636 -2.910393,47.676395 -2.910323,47.67646 -2.910267,47.676475 -2.910029,47.676502 -2.909717,47.676503 -2.90952,47.676549 -2.909454,47.676541 -2.908762,47.676708 -2.908702,47.676702 -2.908631,47.676712 -2.908571,47.676733 -2.908481,47.676795 -2.908372,47.676847 -2.908272,47.676926 -2.90813,47.676961 -2.907889,47.677072 -2.907786,47.677107 -2.907611,47.67721 -2.907415,47.677319 -2.907065,47.67744 -2.907151,47.677577</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : stabilisé<br/><b>Longueur</b> : 72 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1423810184" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.916011,47.651256 -2.915642,47.651521 -2.915366,47.65174</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : enrobé<br/><b>Vélo</b> : vélos autorisés<br/><b>Longueur</b> : 29 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1464365273" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.918124,47.652306 -2.918104,47.652301 -2.917885,47.652238 -2.917778,47.652211 -2.917765,47.652208</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : enrobé<br/><b>Vélo</b> : vélos autorisés<br/><b>Longueur</b> : 48 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1464365274" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.917425,47.65256 -2.917348,47.652541 -2.917166,47.652502 -2.917094,47.652471 -2.916999,47.652426 -2.916844,47.652384</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 187 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1473212171" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.914218,47.652568 -2.9146,47.652685 -2.914967,47.652797 -2.914908,47.652885 -2.914861,47.652895 -2.914798,47.652927 -2.914761,47.652968 -2.914686,47.653017 -2.914653,47.653031 -2.914404,47.652987 -2.913993,47.652915 -2.914094,47.652741 -2.91408,47.652729 -2.914156,47.652602</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 22 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1473212172" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.914529,47.652843 -2.91474,47.652901 -2.914798,47.652927</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 17 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1473212173" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.914395,47.653002 -2.914404,47.652987 -2.914481,47.65286</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Sentier ou cheminement piéton</name>
+<description><![CDATA[<b>Type</b> : Sentier ou cheminement piéton<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 30 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1473212174" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#cheminement_pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.914094,47.652741 -2.914468,47.652844</coordinates></LineString>
+</Placemark>
+</Folder>
+<Folder>
+<name>Chemin rural ou d'exploitation</name>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : stabilisé<br/><b>Longueur</b> : 851 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/244169045" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.885693,47.651197 -2.885286,47.650797 -2.885222,47.650654 -2.88516,47.650538 -2.885023,47.650391 -2.884385,47.6499 -2.884264,47.649797 -2.883941,47.64957 -2.883678,47.649429 -2.883289,47.649279 -2.88273,47.649102 -2.882588,47.649125 -2.882421,47.649046 -2.882179,47.648888 -2.882054,47.648696 -2.881905,47.648445 -2.881826,47.648334 -2.88174,47.648288 -2.881566,47.648282 -2.880828,47.648284 -2.879395,47.648278 -2.87919,47.648299 -2.878915,47.648359 -2.878702,47.648437 -2.878473,47.64852 -2.878028,47.64865 -2.878077,47.648803 -2.878097,47.648953 -2.878026,47.649051 -2.877783,47.649098 -2.877518,47.649153 -2.877415,47.649225 -2.877385,47.649308</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : enrobé<br/><b>Longueur</b> : 67 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/244169484" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.887854,47.651115 -2.887995,47.65108 -2.88845,47.651004 -2.888664,47.650943 -2.888682,47.650918</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : stabilisé<br/><b>Longueur</b> : 75 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/279786097" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.893831,47.643249 -2.893718,47.643206 -2.893678,47.643127 -2.893673,47.643047 -2.893707,47.642993 -2.89376,47.64295 -2.89387,47.642949 -2.894201,47.643035</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 922 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/302139011" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.89466,47.678002 -2.894151,47.677717 -2.893656,47.677531 -2.893023,47.677389 -2.892361,47.677311 -2.891589,47.677267 -2.891145,47.677281 -2.890512,47.677335 -2.890294,47.67733 -2.889966,47.677198 -2.889588,47.677066 -2.889333,47.676963 -2.889202,47.67687 -2.889173,47.676767 -2.88918,47.676698 -2.891429,47.675909 -2.891866,47.675968 -2.892528,47.676061 -2.893176,47.676203 -2.893598,47.676272 -2.893809,47.676345 -2.893969,47.676419 -2.894318,47.676502 -2.894675,47.676512 -2.894857,47.676499</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Vélo</b> : vélos autorisés<br/><b>Longueur</b> : 418 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/302139012" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.894416,47.678425 -2.895038,47.678806 -2.895109,47.678854 -2.895144,47.678922 -2.895237,47.679059 -2.895405,47.679139 -2.895555,47.67919 -2.895723,47.67924 -2.896151,47.679333 -2.896323,47.679389 -2.896416,47.679428 -2.896505,47.679487 -2.896894,47.679954 -2.896982,47.680017 -2.897048,47.68004 -2.897163,47.680076 -2.898652,47.68046 -2.898807,47.680448</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Longueur</b> : 941 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/302146573" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.907306,47.658757 -2.907642,47.658636 -2.908022,47.658499 -2.908667,47.658178 -2.909118,47.657946 -2.909321,47.657511 -2.90948,47.65716 -2.909639,47.656976 -2.909816,47.656803 -2.91009,47.65641 -2.910275,47.656184 -2.91039,47.656047 -2.91062,47.656023 -2.910708,47.65591 -2.910867,47.655684 -2.911018,47.655636 -2.911239,47.655565 -2.911521,47.655476 -2.911654,47.655363 -2.911786,47.654821 -2.912034,47.654398 -2.912343,47.654208 -2.912555,47.654117 -2.91278,47.654021 -2.912871,47.653978 -2.912929,47.653957 -2.913154,47.65388 -2.913249,47.653841 -2.913453,47.653759 -2.913619,47.653662 -2.913681,47.653625 -2.913939,47.653415 -2.91416,47.65325 -2.914385,47.653149 -2.914502,47.653121 -2.914649,47.653092 -2.914877,47.652963 -2.915049,47.652853 -2.915124,47.652822 -2.915246,47.652796</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Longueur</b> : 141 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/302156374" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.913275,47.657765 -2.913993,47.657891 -2.914296,47.657948 -2.914653,47.658015 -2.914863,47.658059 -2.914961,47.658073 -2.915036,47.657993</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 1981 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/302156380" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.88829,47.66759 -2.887754,47.667522 -2.887367,47.667462 -2.88697,47.667381 -2.886527,47.667261 -2.886275,47.667188 -2.885878,47.667054 -2.885635,47.666932 -2.88532,47.666797 -2.885103,47.666731 -2.884902,47.666673 -2.884772,47.666713 -2.884608,47.666775 -2.884408,47.666892 -2.88426,47.666983 -2.883827,47.667332 -2.883249,47.667802 -2.881352,47.669185 -2.88124,47.669225 -2.881162,47.669226 -2.881108,47.669194 -2.880516,47.668457 -2.880431,47.668432 -2.880362,47.668446 -2.880323,47.668512 -2.880313,47.668561 -2.880253,47.668599 -2.880175,47.668644 -2.880149,47.668764 -2.880142,47.668813 -2.879968,47.669354 -2.879899,47.669471 -2.879814,47.669581 -2.879742,47.669705 -2.879758,47.669765 -2.879768,47.66982 -2.879817,47.669871 -2.879889,47.669913 -2.879933,47.669985 -2.879879,47.670045 -2.879711,47.670107 -2.879423,47.670165 -2.879158,47.670304 -2.879063,47.670312 -2.878909,47.670403 -2.878856,47.670454 -2.878748,47.670445 -2.878689,47.670391 -2.878528,47.670266 -2.878316,47.670169 -2.87816,47.670083 -2.877904,47.67001 -2.877694,47.669981 -2.877528,47.669959 -2.877301,47.669915 -2.877077,47.669875 -2.876913,47.669855 -2.876677,47.669798 -2.876456,47.669731 -2.876392,47.669674 -2.876254,47.669586 -2.876119,47.669469 -2.876004,47.669378 -2.875906,47.669283 -2.875555,47.66885 -2.875404,47.668682 -2.875345,47.668576 -2.875279,47.668393 -2.875286,47.668302 -2.875332,47.668211 -2.875456,47.668024 -2.875545,47.667849 -2.875571,47.667736 -2.875581,47.667628 -2.875581,47.66754 -2.875555,47.66746 -2.875522,47.66735 -2.87546,47.667252 -2.87522,47.666985 -2.875089,47.666861 -2.874925,47.666764 -2.874794,47.666762 -2.874331,47.666755 -2.873963,47.666773 -2.873662,47.666773 -2.873251,47.666806 -2.873015,47.666786 -2.872835,47.666746 -2.872635,47.666698 -2.872494,47.666682 -2.872333,47.666709 -2.872136,47.666773 -2.8717,47.666915 -2.87127,47.667029 -2.871033,47.66708 -2.870866,47.667113 -2.87069,47.667136</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 80 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/302156381" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.878856,47.670454 -2.879193,47.671132</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Vélo</b> : vélos autorisés<br/><b>Longueur</b> : 491 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/302156669" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.925045,47.63676 -2.925248,47.636581 -2.925589,47.636315 -2.925788,47.636053 -2.926097,47.635689 -2.926513,47.63523 -2.926767,47.634979 -2.926983,47.634735 -2.927599,47.633318 -2.927691,47.633299 -2.927815,47.633321 -2.928361,47.633369</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 382 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/406625109" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.89611,47.681207 -2.895879,47.681335 -2.895748,47.681451 -2.895496,47.681776 -2.895053,47.682426 -2.894707,47.682957 -2.894307,47.683647 -2.894157,47.683948 -2.893996,47.684117 -2.893892,47.684268</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 228 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/430483629" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.888483,47.641867 -2.888494,47.641916 -2.888375,47.642252 -2.888259,47.642513 -2.888185,47.642558 -2.888023,47.642658 -2.887966,47.642711 -2.887922,47.642788 -2.887925,47.642955 -2.88794,47.643012 -2.887968,47.643073 -2.888107,47.643144 -2.888136,47.643194 -2.888154,47.643276 -2.888097,47.643389 -2.887971,47.643501 -2.887816,47.643547 -2.887677,47.64358</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : stabilisé<br/><b>Longueur</b> : 152 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/430483635" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.888396,47.639166 -2.888109,47.639404 -2.887646,47.639869 -2.887432,47.640111 -2.887406,47.640176 -2.887398,47.640329</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 87 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/538535915" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.910378,47.665738 -2.910376,47.665535 -2.910464,47.66496</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : gravier<br/><b>Longueur</b> : 510 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/830259520" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.88025,47.638622 -2.880318,47.638647 -2.881438,47.63917 -2.883112,47.639962 -2.884765,47.640769 -2.885818,47.641266</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 157 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/835116317" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.899794,47.656912 -2.899679,47.657101 -2.89966,47.657492 -2.899563,47.657786 -2.899421,47.658064 -2.899228,47.658241</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Longueur</b> : 249 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/835261278" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.895892,47.645189 -2.895416,47.645084 -2.894853,47.645015 -2.894247,47.644892 -2.892761,47.644455</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Longueur</b> : 158 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/835261279" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.895892,47.645189 -2.89621,47.645232 -2.897074,47.645489 -2.897911,47.645481</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 182 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/840321519" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.9189,47.630785 -2.918893,47.630984 -2.918901,47.631159 -2.918958,47.631277 -2.919017,47.631315 -2.919411,47.631514 -2.919615,47.631581 -2.919884,47.63165 -2.920446,47.631796</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Longueur</b> : 111 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/840321520" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.920637,47.630799 -2.920406,47.631002 -2.919904,47.631541 -2.919884,47.63165</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 56 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/863903620" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.910637,47.630953 -2.910699,47.631084 -2.910715,47.631207 -2.910693,47.631288 -2.910613,47.631357 -2.910536,47.631402</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 25 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/888626704" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.929819,47.64787 -2.929831,47.647927 -2.929861,47.647988 -2.929888,47.648086</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 277 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/943998765" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.885899,47.641224 -2.885818,47.641266 -2.88563,47.641495 -2.885437,47.64163 -2.885295,47.641811 -2.884944,47.64208 -2.884678,47.642232 -2.884222,47.642622 -2.883764,47.642967 -2.88358,47.64308 -2.883519,47.643098</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : stabilisé<br/><b>Longueur</b> : 121 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1278748859" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.915036,47.657993 -2.915107,47.657833 -2.915285,47.657786 -2.916025,47.657633 -2.916389,47.657521</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Longueur</b> : 130 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1339142898" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.886033,47.651831 -2.885466,47.652117 -2.8852,47.65237 -2.884957,47.652486 -2.884714,47.652572</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 223 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1445374539" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.892535,47.656203 -2.892497,47.656283 -2.892591,47.65646 -2.892812,47.656694 -2.892885,47.656791 -2.892926,47.656966 -2.892915,47.657096 -2.892757,47.65735 -2.892466,47.657771 -2.89239,47.65785 -2.892159,47.657979</coordinates></LineString>
+</Placemark>
+</Folder>
+<Folder>
+<name>Liaison à créer (discontinuité, demande ou engagement)</name>
+<Placemark>
+<name>Liaison bourg de Plougoumelen ↔ Ploeren</name>
+<description><![CDATA[<b>Type</b> : Liaison à créer (discontinuité, demande ou engagement)<br/><b>Statut</b> : à venir<br/><b>Avancement</b> : Discontinuité identifiée, aucun projet voté ni financé trouvé dans les sources publiques<br/><b>Aménagement prévu</b> : À définir<br/><b>Échéance</b> : Non connue<br/><b>Longueur</b> : 4014 m<br/><b>Tracé</b> : Indicatif : itinéraire routier le plus court vers bourg de Ploeren, calculé avec le service d'itinéraire IGN (BD TOPO). À remplacer par le tracé étudié.<br/><b>Source</b> : Réponses de la liste « Construisons demain Plougoumelen » au questionnaire municipales 2026 de Vélomotive (mars 2026) : « Quelles discontinuités cyclables avez-vous identifiées entre votre commune et les communes voisines ? Axe Plougoumelen Ploeren et Plougoumelen Lérion/Keneah »<br/><a href="https://velomotive.fr/wp-content/uploads/2026/03/Reponses-Guillemot-Plougoumelen-1.pdf" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#intention</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.917485,47.652512 -2.917485,47.652521 -2.917492,47.652541 -2.917506,47.65256 -2.917525,47.652575 -2.917549,47.652586 -2.917567,47.652592 -2.917459,47.652821 -2.917207,47.652837 -2.916987,47.652872 -2.916855,47.652908 -2.916823,47.652922 -2.916775,47.652954 -2.916725,47.652995 -2.916554,47.652985 -2.91634,47.652989 -2.916231,47.652988 -2.916136,47.652975 -2.915724,47.6529 -2.915571,47.65287 -2.915472,47.652854 -2.915328,47.652821 -2.915279,47.652805 -2.915235,47.652791 -2.915188,47.652777 -2.914566,47.6526 -2.913984,47.652445 -2.913683,47.652384 -2.913484,47.652361 -2.913314,47.652344 -2.913149,47.652338 -2.912892,47.65235 -2.912409,47.652383 -2.912245,47.652401 -2.911949,47.652423 -2.911651,47.652454 -2.911324,47.652472 -2.911062,47.652481 -2.910882,47.652483 -2.91057,47.652474 -2.910446,47.652469 -2.910045,47.652456 -2.90965,47.652443 -2.909405,47.652446 -2.909185,47.652455 -2.90897,47.652478 -2.908546,47.652534 -2.908156,47.652592 -2.907899,47.652618 -2.907726,47.652629 -2.907473,47.652642 -2.907079,47.652643 -2.906433,47.65265 -2.905791,47.652652 -2.90554,47.65265 -2.905356,47.652644 -2.905214,47.652636 -2.905082,47.652622 -2.904906,47.652594 -2.904593,47.652524 -2.904205,47.65243 -2.903881,47.652356 -2.903348,47.652243 -2.903173,47.652218 -2.903,47.65221 -2.902786,47.652209 -2.902429,47.652223 -2.901845,47.652231 -2.901509,47.652232 -2.901395,47.652233 -2.90123,47.652234 -2.901056,47.652238 -2.90093,47.652233 -2.900699,47.652219 -2.900294,47.652171 -2.899829,47.652118 -2.899434,47.652073 -2.899017,47.65202 -2.898693,47.651971 -2.898083,47.651882 -2.897576,47.651818 -2.897367,47.651801 -2.897216,47.651793 -2.897078,47.65179 -2.896877,47.651804 -2.896602,47.651831 -2.896104,47.651917 -2.895416,47.652026 -2.895248,47.652052 -2.895017,47.652089 -2.894771,47.652122 -2.894589,47.652138 -2.894386,47.652134 -2.894205,47.65212 -2.894026,47.652096 -2.893836,47.652055 -2.893544,47.651972 -2.893364,47.651922 -2.893278,47.651897 -2.8931,47.651821 -2.892741,47.651631 -2.892204,47.651347 -2.891799,47.651113 -2.89165,47.651055 -2.891536,47.65102 -2.891419,47.650995 -2.8913,47.650985 -2.891176,47.650968 -2.890944,47.650955 -2.890433,47.650941 -2.889915,47.650925 -2.889429,47.650915 -2.888841,47.650903 -2.88822,47.650912 -2.887679,47.650925 -2.886877,47.650936 -2.886756,47.650938 -2.886531,47.650952 -2.886359,47.650984 -2.886166,47.651032 -2.88569,47.651199 -2.885435,47.651289 -2.885371,47.65131 -2.885113,47.651392 -2.884672,47.651532 -2.88439,47.651607 -2.884213,47.651646 -2.883825,47.651714 -2.88369,47.651736 -2.88285,47.651869 -2.882392,47.651936 -2.882162,47.651958 -2.881985,47.651963 -2.881803,47.65195 -2.881525,47.651908 -2.881315,47.651884 -2.881,47.651862 -2.880702,47.65186 -2.880424,47.651877 -2.880186,47.651893 -2.880035,47.651913 -2.879955,47.651924 -2.879774,47.65197 -2.879656,47.652012 -2.879615,47.652027 -2.87948,47.652094 -2.879373,47.652152 -2.879134,47.652308 -2.878982,47.652385 -2.878843,47.652447 -2.878744,47.65248 -2.878706,47.652484 -2.87866,47.652484 -2.878587,47.652504 -2.878525,47.652529 -2.878472,47.652555 -2.878436,47.652581 -2.87822,47.652641 -2.877824,47.65275 -2.87764,47.652799 -2.877419,47.652856 -2.877115,47.652934 -2.877108,47.652917 -2.877098,47.652902 -2.877079,47.652893 -2.877067,47.652886 -2.877047,47.652885 -2.877007,47.652887 -2.876967,47.652896 -2.87694,47.652924 -2.87693,47.652954 -2.876937,47.652978 -2.876815,47.653014 -2.876781,47.653025 -2.876169,47.653233 -2.87599,47.653292 -2.875735,47.653376 -2.874962,47.653588 -2.874848,47.65362 -2.873981,47.653863 -2.873562,47.653975 -2.873383,47.654022 -2.873377,47.654006 -2.873351,47.653985 -2.873327,47.653976 -2.87329,47.653971 -2.873264,47.653973 -2.873223,47.65398 -2.873189,47.653996 -2.873166,47.654017 -2.873154,47.654043 -2.873157,47.654067 -2.873162,47.654076 -2.872816,47.654152 -2.872762,47.654164 -2.872229,47.654269 -2.872037,47.654317 -2.871989,47.654329 -2.871755,47.654394 -2.87157,47.654439 -2.871393,47.654465 -2.871302,47.654472 -2.871174,47.65448 -2.871061,47.654486 -2.870959,47.654499 -2.870855,47.65452 -2.870586,47.654595 -2.870268,47.654685 -2.870151,47.65471 -2.870094,47.654712 -2.870055,47.654713 -2.869953,47.654633 -2.869818,47.654548 -2.869726,47.654489 -2.86962,47.654423 -2.869526,47.654387 -2.869359,47.654337 -2.869257,47.6543 -2.869215,47.654291 -2.869172,47.654314 -2.869103,47.654429 -2.869041,47.654542 -2.869011,47.654594 -2.86897,47.65466 -2.868954,47.654745 -2.868963,47.654818 -2.868968,47.654833 -2.868988,47.654908 -2.869029,47.655011 -2.869083,47.655085 -2.869158,47.655145 -2.869095,47.655203 -2.869044,47.655246 -2.869011,47.655272 -2.86896,47.655318 -2.868937,47.655344 -2.868911,47.655336 -2.868887,47.655335 -2.868863,47.655338 -2.868842,47.655346 -2.868825,47.655358 -2.868816,47.655372 -2.868813,47.655382 -2.868814,47.655392 -2.868818,47.655404 -2.868832,47.655419 -2.86885,47.655429 -2.868874,47.655435 -2.868903,47.655434 -2.868923,47.65543 -2.868943,47.65542 -2.868957,47.655407</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Liaison bourg de Plougoumelen ↔ Lérion / Kénéah</name>
+<description><![CDATA[<b>Type</b> : Liaison à créer (discontinuité, demande ou engagement)<br/><b>Statut</b> : à venir<br/><b>Avancement</b> : Discontinuité identifiée, aucun projet voté ni financé trouvé dans les sources publiques<br/><b>Aménagement prévu</b> : À définir<br/><b>Échéance</b> : Non connue<br/><b>Longueur</b> : 2775 m<br/><b>Tracé</b> : Indicatif : itinéraire routier le plus court vers zones d'activité de Lérion-Kénéah et aire de covoiturage du Kénéah, calculé avec le service d'itinéraire IGN (BD TOPO). À remplacer par le tracé étudié.<br/><b>Source</b> : Réponses de la liste « Construisons demain Plougoumelen » au questionnaire municipales 2026 de Vélomotive (mars 2026) : « Quelles discontinuités cyclables avez-vous identifiées entre votre commune et les communes voisines ? Axe Plougoumelen Ploeren et Plougoumelen Lérion/Keneah »<br/><a href="https://velomotive.fr/wp-content/uploads/2026/03/Reponses-Guillemot-Plougoumelen-1.pdf" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#intention</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.917485,47.652512 -2.917485,47.652521 -2.917492,47.652541 -2.917506,47.65256 -2.917525,47.652575 -2.917549,47.652586 -2.917567,47.652592 -2.917459,47.652821 -2.917431,47.652888 -2.917348,47.65306 -2.917308,47.653128 -2.91716,47.653329 -2.917137,47.653361 -2.916882,47.653628 -2.916698,47.65386 -2.916532,47.65405 -2.916345,47.654219 -2.91612,47.654408 -2.916011,47.654472 -2.915964,47.654447 -2.915896,47.654431 -2.915824,47.654434 -2.915758,47.654456 -2.915729,47.654479 -2.915711,47.654493 -2.915688,47.654539 -2.915693,47.654588 -2.915718,47.654624 -2.915447,47.654749 -2.915233,47.65485 -2.914988,47.654982 -2.914481,47.655252 -2.914286,47.655381 -2.914144,47.655478 -2.91401,47.655593 -2.913918,47.65568 -2.913745,47.655857 -2.91348,47.65613 -2.913198,47.656435 -2.912957,47.656721 -2.912733,47.656977 -2.9126,47.657129 -2.912436,47.657333 -2.912309,47.657513 -2.912214,47.657681 -2.912207,47.657692 -2.91214,47.657963 -2.912093,47.658181 -2.912068,47.658295 -2.911988,47.658629 -2.911952,47.658765 -2.911941,47.658844 -2.911931,47.658907 -2.91191,47.659011 -2.911882,47.659148 -2.911858,47.659248 -2.911848,47.659286 -2.911805,47.659441 -2.911765,47.659568 -2.911705,47.659719 -2.911633,47.659846 -2.91154,47.660001 -2.911446,47.660136 -2.911338,47.660265 -2.911224,47.660392 -2.911168,47.66044 -2.911036,47.66055 -2.910921,47.660645 -2.910801,47.660729 -2.91074,47.660771 -2.910606,47.660863 -2.910473,47.660944 -2.910257,47.661057 -2.909995,47.661177 -2.909818,47.661243 -2.909555,47.66133 -2.90932,47.661396 -2.909054,47.661459 -2.908881,47.661493 -2.908617,47.661533 -2.908457,47.661553 -2.908226,47.661566 -2.90793,47.66158 -2.907622,47.66159 -2.907309,47.661602 -2.907177,47.661603 -2.906975,47.661617 -2.906914,47.661619 -2.906674,47.661649 -2.90647,47.661688 -2.906242,47.66174 -2.906067,47.661786 -2.905901,47.661846 -2.905776,47.661891 -2.905593,47.661968 -2.905419,47.662055 -2.905344,47.662089 -2.90526,47.662137 -2.905123,47.662226 -2.905052,47.662277 -2.904925,47.662369 -2.904803,47.662435 -2.904693,47.662519 -2.904599,47.662588 -2.904524,47.662635 -2.904446,47.662668 -2.904364,47.662695 -2.904278,47.66272 -2.90423,47.662715 -2.904162,47.662717 -2.904093,47.662725 -2.904028,47.662738 -2.903952,47.662762 -2.903895,47.66279 -2.903851,47.662827 -2.903804,47.662872 -2.903777,47.662913 -2.903771,47.662929 -2.903665,47.662982 -2.90359,47.663009 -2.90349,47.66302 -2.903333,47.663034 -2.903122,47.663053 -2.902832,47.663085 -2.902658,47.663097 -2.902489,47.663113 -2.902296,47.663136 -2.902081,47.663161 -2.901904,47.663191 -2.901711,47.663229 -2.901503,47.663268 -2.90131,47.663312 -2.900961,47.663417 -2.900637,47.663519 -2.90025,47.663676 -2.89999,47.663783 -2.899835,47.663783 -2.899776,47.663781 -2.89968,47.663809 -2.899583,47.663848 -2.899495,47.66389 -2.899448,47.66392 -2.899367,47.663972 -2.899406,47.664029 -2.899436,47.664101 -2.899448,47.664175 -2.899454,47.664346 -2.899432,47.664425 -2.899384,47.664595 -2.899355,47.664689 -2.899318,47.664821 -2.899307,47.664855 -2.899277,47.664961 -2.899254,47.665039 -2.899238,47.665093 -2.899236,47.665099 -2.899188,47.665263 -2.899046,47.665756 -2.899,47.66591 -2.898868,47.666359 -2.898763,47.666712 -2.898683,47.666715 -2.898565,47.666731 -2.898453,47.666746 -2.898346,47.666734 -2.898264,47.66672 -2.89815,47.666695 -2.897926,47.666636 -2.89781,47.6666 -2.896947,47.6662 -2.896713,47.666082 -2.896434,47.66584 -2.896346,47.66575 -2.896329,47.665727 -2.896236,47.665596 -2.896255,47.665568 -2.896269,47.665514 -2.896374,47.665449 -2.896405,47.665433 -2.896477,47.665408 -2.896552,47.665393 -2.896634,47.665378 -2.896997,47.665352 -2.89711,47.665381 -2.897249,47.665422 -2.897408,47.665481 -2.897466,47.665511 -2.897517,47.665532 -2.897597,47.665572 -2.897637,47.665592 -2.897472,47.665741 -2.897364,47.665835 -2.897262,47.665925</coordinates></LineString>
+</Placemark>
+</Folder>
+</Document>
+</kml>
