@@ -71,9 +71,19 @@ les mêmes fonds IGN (Plan IGN, photos aériennes, cadastre…). Procédure test
 Importer séparément `…-existant.kml` et `…-a-venir.kml` permet d'afficher ou masquer chaque statut
 dans le gestionnaire de couches, et de les superposer au cadastre ou aux photos aériennes.
 
-**Limite** : le lien de partage (« Partager, intégrer la carte ») **n'inclut pas** une couche importée
-depuis un fichier local. Pour partager la carte, il y a trois solutions :
-- envoyer les fichiers KML, que chaque personne importe elle-même ;
+### Import par URL (sans télécharger de fichier)
+
+À l'étape 3, choisir **par URL** et coller l'une de ces adresses (testé le 17/11/2026) :
+
+- tout : `https://raw.githubusercontent.com/nicohery/plougoumelen-mobilites/master/dist/plougoumelen-mobilites-douces.kml`
+- existant : `https://raw.githubusercontent.com/nicohery/plougoumelen-mobilites/master/dist/plougoumelen-mobilites-douces-existant.kml`
+- à venir : `https://raw.githubusercontent.com/nicohery/plougoumelen-mobilites/master/dist/plougoumelen-mobilites-douces-a-venir.kml`
+
+Ces adresses suivent la branche `master` : chaque mise à jour poussée est visible au prochain import.
+
+**Limite** : le lien de partage (« Partager, intégrer la carte ») **n'inclut pas** une couche importée,
+que ce soit par fichier ou par URL. Pour partager la carte, il y a trois solutions :
+- envoyer l'une des adresses ci-dessus, que chaque personne colle dans « Importer des données » ;
 - se créer un compte cartes.gouv.fr pour enregistrer la carte avec ses données (« Mes enregistrements ») ;
 - pour une couche publique durable (plutôt une démarche mairie ou agglomération) : déposer
   `dist/plougoumelen-mobilites-douces.geojson` dans un espace de travail cartes.gouv.fr et le publier
