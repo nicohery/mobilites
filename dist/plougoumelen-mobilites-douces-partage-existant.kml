@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Plougoumelen – Partagé – existant</name>
+<Style id="velo"><LineStyle><color>e641961a</color><width>5</width></LineStyle></Style>
+<Style id="velo_programme"><LineStyle><color>e641961a</color><width>6</width></LineStyle></Style>
+<Style id="velo_intention"><LineStyle><color>e641961a</color><width>4</width></LineStyle></Style>
+<Style id="velo_promesse"><LineStyle><color>e641961a</color><width>2</width></LineStyle></Style>
+<Style id="partage"><LineStyle><color>e69da900</color><width>5</width></LineStyle></Style>
+<Style id="partage_programme"><LineStyle><color>e69da900</color><width>6</width></LineStyle></Style>
+<Style id="partage_intention"><LineStyle><color>e69da900</color><width>4</width></LineStyle></Style>
+<Style id="partage_promesse"><LineStyle><color>e69da900</color><width>2</width></LineStyle></Style>
+<Style id="pieton"><LineStyle><color>e6b67b2c</color><width>3</width></LineStyle></Style>
+<Style id="pieton_programme"><LineStyle><color>e6b67b2c</color><width>6</width></LineStyle></Style>
+<Style id="pieton_intention"><LineStyle><color>e6b67b2c</color><width>4</width></LineStyle></Style>
+<Style id="pieton_promesse"><LineStyle><color>e6b67b2c</color><width>2</width></LineStyle></Style>
+<Style id="chemin_rural"><LineStyle><color>e61d76a6</color><width>2</width></LineStyle></Style>
+<Style id="chemin_rural_programme"><LineStyle><color>e61d76a6</color><width>6</width></LineStyle></Style>
+<Style id="chemin_rural_intention"><LineStyle><color>e61d76a6</color><width>4</width></LineStyle></Style>
+<Style id="chemin_rural_promesse"><LineStyle><color>e61d76a6</color><width>2</width></LineStyle></Style>
+<Placemark>
+<name>Partagé piétons-vélos : voie verte</name>
+<description><![CDATA[<b>Type</b> : Partagé piétons-vélos : voie verte<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : stabilisé<br/><b>Vélo</b> : aménagé pour les vélos<br/><b>Longueur</b> : 617 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/198650740" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#partage</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.917558,47.659964 -2.917429,47.659960 -2.917421,47.659928 -2.917449,47.659591 -2.917619,47.658242 -2.916430,47.657713 -2.916389,47.657521 -2.916361,47.657388 -2.916259,47.656980 -2.916414,47.656376 -2.916387,47.656138 -2.916463,47.655516 -2.916750,47.654992</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Partagé piétons-vélos : voie verte</name>
+<description><![CDATA[<b>Type</b> : Partagé piétons-vélos : voie verte<br/><b>Statut</b> : existant<br/><b>Vélo</b> : aménagé pour les vélos<br/><b>Longueur</b> : 258 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1449610492" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#partage</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.894824,47.670563 -2.894880,47.670555 -2.895073,47.670259 -2.895186,47.670085 -2.895304,47.669942 -2.895404,47.669843 -2.895493,47.669771 -2.895617,47.669692 -2.895850,47.669566 -2.896153,47.669418 -2.896398,47.669305 -2.896641,47.669183 -2.896699,47.669181 -2.896754,47.669189 -2.896784,47.669192 -2.896832,47.669170 -2.896907,47.669139 -2.896916,47.669107 -2.896968,47.669029 -2.897016,47.668991 -2.897009,47.668938</coordinates></LineString>
+</Placemark>
+</Document>
+</kml>

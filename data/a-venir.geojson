@@ -6,9 +6,10 @@
    "properties": {
     "identifiant": "liaison-bourg-ploeren",
     "nom": "Liaison bourg de Plougoumelen ↔ Ploeren",
-    "categorie": "intention",
+    "categorie": "velo",
     "statut": "à venir",
-    "avancement": "Discontinuité identifiée, aucun projet voté ni financé trouvé dans les sources publiques",
+    "engagement": "promesse",
+    "avancement": "Promesse de campagne (municipales 2026) : discontinuité citée par la liste élue, aucun projet voté ni financé trouvé",
     "type_amenagement": "À définir",
     "echeance": "Non connue",
     "trace": "Indicatif : itinéraire routier le plus court vers bourg de Ploeren, calculé avec le service d'itinéraire IGN (BD TOPO). À remplacer par le tracé étudié.",
@@ -1034,9 +1035,10 @@
    "properties": {
     "identifiant": "liaison-bourg-lerion-keneah",
     "nom": "Liaison bourg de Plougoumelen ↔ Lérion / Kénéah",
-    "categorie": "intention",
+    "categorie": "velo",
     "statut": "à venir",
-    "avancement": "Discontinuité identifiée, aucun projet voté ni financé trouvé dans les sources publiques",
+    "engagement": "promesse",
+    "avancement": "Promesse de campagne (municipales 2026) : discontinuité citée par la liste élue, aucun projet voté ni financé trouvé",
     "type_amenagement": "À définir",
     "echeance": "Non connue",
     "trace": "Indicatif : itinéraire routier le plus court vers zones d'activité de Lérion-Kénéah et aire de covoiturage du Kénéah, calculé avec le service d'itinéraire IGN (BD TOPO). À remplacer par le tracé étudié.",
@@ -1817,6 +1819,294 @@
      [
       -2.897262,
       47.665925
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "identifiant": "traversee-stade-kergouguec",
+    "nom": "Traversée du stade de Kergouguec",
+    "categorie": "pieton",
+    "statut": "à venir",
+    "engagement": "intention",
+    "echeance": "Non connue",
+    "source": "Projet signalé par un contributeur de la carte (novembre 2026). Aucune délibération correspondante identifiée à ce jour.",
+    "avancement": "Projet de traversée du complexe sportif, entre la route de Ty Len et la rue Notre-Dame-de-Becquerel",
+    "type_amenagement": "Cheminement à travers le stade",
+    "trace": "Indicatif : suit la voie de service au nord des terrains (OpenStreetMap). À confirmer."
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -2.921273,
+      47.648499
+     ],
+     [
+      -2.921317,
+      47.6485
+     ],
+     [
+      -2.9214,
+      47.648517
+     ],
+     [
+      -2.92295,
+      47.648844
+     ],
+     [
+      -2.923159,
+      47.64888
+     ],
+     [
+      -2.923342,
+      47.648846
+     ],
+     [
+      -2.923492,
+      47.648822
+     ],
+     [
+      -2.923677,
+      47.64879
+     ],
+     [
+      -2.924093,
+      47.648858
+     ],
+     [
+      -2.924262,
+      47.648846
+     ],
+     [
+      -2.924391,
+      47.648823
+     ],
+     [
+      -2.924653,
+      47.648865
+     ],
+     [
+      -2.925064,
+      47.648956
+     ],
+     [
+      -2.925272,
+      47.648989
+     ],
+     [
+      -2.92545,
+      47.649026
+     ],
+     [
+      -2.925512,
+      47.649061
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "identifiant": "chemin-lestreviau-etang",
+    "nom": "Chemin de Lestréviau : chapelle ↔ virage de la route de Kergroix",
+    "categorie": "pieton",
+    "statut": "à venir",
+    "engagement": "intention",
+    "echeance": "Non connue",
+    "source": "Projet signalé par un contributeur de la carte (novembre 2026). Aucune délibération correspondante identifiée à ce jour.",
+    "avancement": "Projet d'ouverture d'un chemin communal, qui contourne l'étang et rejoint la parcelle F 125",
+    "type_amenagement": "Ouverture d'un chemin communal existant au cadastre",
+    "trace": "Bande non cadastrée (chemin communal) relevée sur le plan cadastral, du virage de la route de Kergroix (parcelle F 125) au sud de l'étang. Le raccord jusqu'à la chapelle Saint-Thuriau n'apparaît pas au cadastre et n'est pas tracé."
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -2.908636,
+      47.645345
+     ],
+     [
+      -2.908411,
+      47.645354
+     ],
+     [
+      -2.908186,
+      47.645337
+     ],
+     [
+      -2.907977,
+      47.645289
+     ],
+     [
+      -2.907832,
+      47.645208
+     ],
+     [
+      -2.907704,
+      47.645099
+     ],
+     [
+      -2.907543,
+      47.644968
+     ],
+     [
+      -2.907408,
+      47.644831
+     ],
+     [
+      -2.907286,
+      47.644685
+     ],
+     [
+      -2.907247,
+      47.644456
+     ],
+     [
+      -2.907244,
+      47.644129
+     ],
+     [
+      -2.907254,
+      47.643802
+     ],
+     [
+      -2.907276,
+      47.643558
+     ],
+     [
+      -2.907479,
+      47.643536
+     ],
+     [
+      -2.907678,
+      47.643531
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "identifiant": "chemin-camping-hallate-lestreviau",
+    "nom": "Chemin camping de la Fontaine du Hallate ↔ Lestréviau",
+    "categorie": "pieton",
+    "statut": "à venir",
+    "engagement": "intention",
+    "echeance": "Non connue",
+    "source": "Projet signalé par un contributeur de la carte (novembre 2026). Aucune délibération correspondante identifiée à ce jour.",
+    "avancement": "Projet de chemin le long des talus, avec acquisition de la parcelle F 92",
+    "type_amenagement": "Chemin le long des talus",
+    "trace": "Bande non cadastrée (chemin communal) le long de la haie, du sud du camping à la parcelle F 92, puis tracé indicatif en bordure de F 92 jusqu'à l'impasse de Rakerieu."
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -2.899188,
+      47.643093
+     ],
+     [
+      -2.89975,
+      47.643113
+     ],
+     [
+      -2.9005,
+      47.643067
+     ],
+     [
+      -2.900875,
+      47.642991
+     ],
+     [
+      -2.901063,
+      47.642848
+     ],
+     [
+      -2.9014,
+      47.642976
+     ],
+     [
+      -2.90185,
+      47.643144
+     ],
+     [
+      -2.9023,
+      47.643296
+     ],
+     [
+      -2.90275,
+      47.643271
+     ],
+     [
+      -2.9035,
+      47.643357
+     ],
+     [
+      -2.90425,
+      47.643398
+     ],
+     [
+      -2.904775,
+      47.643317
+     ],
+     [
+      -2.905465,
+      47.64322
+     ],
+     [
+      -2.9059,
+      47.643199
+     ],
+     [
+      -2.90626,
+      47.643255
+     ],
+     [
+      -2.90632,
+      47.643296
+     ],
+     [
+      -2.906207,
+      47.64381
+     ],
+     [
+      -2.906343,
+      47.643841
+     ],
+     [
+      -2.9066006,
+      47.6433901
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "identifiant": "continuite-jardins-golfe-jardins-len",
+    "nom": "Continuité Jardins du Golfe ↔ Jardins du Len",
+    "categorie": "pieton",
+    "statut": "à venir",
+    "engagement": "intention",
+    "echeance": "Non connue",
+    "source": "Projet signalé par un contributeur de la carte (novembre 2026). Aucune délibération correspondante identifiée à ce jour.",
+    "avancement": "Continuité envisagée entre les deux lotissements",
+    "type_amenagement": "Liaison entre lotissements",
+    "trace": "Indicatif : prolonge le chemin rural qui traverse les Jardins du Golfe, de la rue des Chaumières jusqu'à l'amorce de la rue Léonard Eunson."
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -2.9152455,
+      47.6527964
+     ],
+     [
+      -2.9151819,
+      47.6520948
      ]
     ]
    }

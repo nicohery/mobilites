@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Plougoumelen – Vélo – existant</name>
+<Style id="velo"><LineStyle><color>e641961a</color><width>5</width></LineStyle></Style>
+<Style id="velo_programme"><LineStyle><color>e641961a</color><width>6</width></LineStyle></Style>
+<Style id="velo_intention"><LineStyle><color>e641961a</color><width>4</width></LineStyle></Style>
+<Style id="velo_promesse"><LineStyle><color>e641961a</color><width>2</width></LineStyle></Style>
+<Style id="partage"><LineStyle><color>e69da900</color><width>5</width></LineStyle></Style>
+<Style id="partage_programme"><LineStyle><color>e69da900</color><width>6</width></LineStyle></Style>
+<Style id="partage_intention"><LineStyle><color>e69da900</color><width>4</width></LineStyle></Style>
+<Style id="partage_promesse"><LineStyle><color>e69da900</color><width>2</width></LineStyle></Style>
+<Style id="pieton"><LineStyle><color>e6b67b2c</color><width>3</width></LineStyle></Style>
+<Style id="pieton_programme"><LineStyle><color>e6b67b2c</color><width>6</width></LineStyle></Style>
+<Style id="pieton_intention"><LineStyle><color>e6b67b2c</color><width>4</width></LineStyle></Style>
+<Style id="pieton_promesse"><LineStyle><color>e6b67b2c</color><width>2</width></LineStyle></Style>
+<Style id="chemin_rural"><LineStyle><color>e61d76a6</color><width>2</width></LineStyle></Style>
+<Style id="chemin_rural_programme"><LineStyle><color>e61d76a6</color><width>6</width></LineStyle></Style>
+<Style id="chemin_rural_intention"><LineStyle><color>e61d76a6</color><width>4</width></LineStyle></Style>
+<Style id="chemin_rural_promesse"><LineStyle><color>e61d76a6</color><width>2</width></LineStyle></Style>
+<Placemark>
+<name>Rue Notre-Dame-de-Becquerel</name>
+<description><![CDATA[<b>Type</b> : Vélo : piste ou bande cyclable<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : enrobé<br/><b>Longueur</b> : 521 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/175200531" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#velo</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.921650,47.647937 -2.921561,47.648088 -2.921477,47.648224 -2.921273,47.648499 -2.921180,47.648628 -2.921077,47.648765 -2.920976,47.648898 -2.920954,47.648922 -2.920695,47.649198 -2.920628,47.649266 -2.920567,47.649329 -2.920449,47.649513 -2.920250,47.649822 -2.920046,47.650015 -2.919577,47.650462 -2.919524,47.650530 -2.919305,47.650777 -2.919187,47.650865 -2.918908,47.651144 -2.918783,47.651261 -2.918662,47.651387 -2.918591,47.651500 -2.918294,47.652015</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>C 3</name>
+<description><![CDATA[<b>Type</b> : Vélo : piste ou bande cyclable<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 936 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/175200542" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#velo</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.918668,47.656434 -2.918304,47.657151 -2.918124,47.657489 -2.918107,47.657517 -2.917784,47.658104 -2.917755,47.658282 -2.917578,47.659364 -2.917558,47.659659 -2.917558,47.659964 -2.917573,47.660048 -2.917642,47.660293 -2.917750,47.660607 -2.918101,47.661635 -2.918322,47.662084 -2.918917,47.662969 -2.919526,47.663723 -2.919614,47.663846 -2.919698,47.664012 -2.919772,47.664259 -2.919808,47.664452</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Rue du Roi Stivan</name>
+<description><![CDATA[<b>Type</b> : Vélo : piste ou bande cyclable<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : enrobé<br/><b>Longueur</b> : 31 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/917828770" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#velo</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.921073,47.647697 -2.921478,47.647767</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>C 3</name>
+<description><![CDATA[<b>Type</b> : Vélo : piste ou bande cyclable<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 333 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1349746745" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#velo</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.919808,47.664452 -2.919819,47.664540 -2.919838,47.664708 -2.919835,47.664816 -2.919785,47.665112 -2.919535,47.665705 -2.919474,47.665864 -2.919261,47.665916 -2.919110,47.665960 -2.918521,47.666098 -2.918265,47.666183 -2.918075,47.666274 -2.917764,47.666488 -2.917574,47.666661</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Rue Notre-Dame-de-Becquerel</name>
+<description><![CDATA[<b>Type</b> : Vélo : piste ou bande cyclable<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : enrobé<br/><b>Longueur</b> : 39 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1349746751" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#velo</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.918294,47.652015 -2.918219,47.652146 -2.918124,47.652306 -2.918104,47.652341</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Rue de Tremodec</name>
+<description><![CDATA[<b>Type</b> : Vélo : piste ou bande cyclable<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : enrobé<br/><b>Longueur</b> : 260 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1449610491" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#velo</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.897009,47.668938 -2.897228,47.668794 -2.897445,47.668641 -2.897640,47.668485 -2.897820,47.668334 -2.898015,47.668127 -2.898218,47.667867 -2.898385,47.667626 -2.898486,47.667454 -2.898563,47.667293 -2.898661,47.667026 -2.898694,47.666938</coordinates></LineString>
+</Placemark>
+</Document>
+</kml>

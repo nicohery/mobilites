@@ -10,23 +10,30 @@ existants et à venir, à importer sur cartes.gouv.fr (ex-Géoportail) ou dans u
 | `data/a-venir.geojson` | Projets et liaisons à créer, **saisis à la main**. C'est le fichier à enrichir. |
 | `data/existant-osm.json` | Dernier extrait OpenStreetMap brut (permet de reconstruire hors ligne). |
 | `build.py` | Récupère l'existant dans OpenStreetMap, le classe, fusionne les projets, génère `dist/`. |
-| `dist/plougoumelen-mobilites-douces-existant.kml` | Couche « existant » pour cartes.gouv.fr. |
-| `dist/plougoumelen-mobilites-douces-a-venir.kml` | Couche « à venir » pour cartes.gouv.fr. |
-| `dist/plougoumelen-mobilites-douces.kml` | Les deux réunies dans un seul fichier. |
+| `dist/plougoumelen-mobilites-douces.kml` | **Tout en un.** |
+| `dist/plougoumelen-mobilites-douces-<type>-<statut>.kml` | Sous-couches : type `velo`, `partage`, `pieton` ou `chemin-rural`, statut `existant` ou `a-venir`. Seules les combinaisons non vides sont générées. |
 | `dist/plougoumelen-mobilites-douces.geojson` | Tout, avec attributs et couleurs (QGIS, uMap, geojson.io, cartes.gouv.fr). |
 
 ## Légende
 
-| Couleur | Catégorie | Origine |
-|---|---|---|
-| vert foncé, épais | Piste ou bande cyclable | OSM : `highway=cycleway`, `cycleway*=lane/track` |
-| turquoise, épais | Voie verte / chemin partagé piétons-vélos | OSM : chemin avec `bicycle=designated` |
-| bleu | Sentier ou cheminement piéton | OSM : `footway`, `path`, `pedestrian`, `steps` |
-| marron, fin | Chemin rural ou d'exploitation | OSM : `highway=track` |
-| orange, très épais | Aménagement programmé (voté ou financé) | `data/a-venir.geojson`, `categorie: programme` |
-| magenta, très épais | Liaison à créer (discontinuité, demande, engagement) | `data/a-venir.geojson`, `categorie: intention` |
+La couleur indique le type, le trait plein l'existant, le **pointillé ce qui est à venir**.
+Pour l'à venir, le trait est d'autant plus épais que l'engagement est ferme.
 
-Chaque tronçon affiche dans sa bulle : type, revêtement, accès vélo, longueur, source et lien.
+| Couleur | Type (`categorie`) | Existant, d'après OSM |
+|---|---|---|
+| vert foncé | Vélo : piste ou bande cyclable (`velo`) | `highway=cycleway`, `cycleway*=lane/track` |
+| turquoise | Partagé piétons-vélos : voie verte (`partage`) | chemin avec `bicycle=designated` |
+| bleu | Piéton : sentier, cheminement (`pieton`) | `footway`, `path`, `pedestrian`, `steps` |
+| marron | Chemin rural ou d'exploitation (`chemin_rural`) | `highway=track` |
+
+| Pointillé | Engagement (`engagement`) |
+|---|---|
+| épais | Voté ou financé (`programme`) |
+| moyen | Étudié ou évoqué : conseil, bulletin, projet signalé (`intention`) |
+| fin | Promesse de campagne, municipales 2026 (`promesse`) |
+
+Chaque tronçon affiche dans sa bulle : type, statut, engagement, revêtement, accès vélo, longueur, tracé, source et lien.
+Les sentiers marqués `bicycle=yes` dans OSM restent dans le type piéton ; leur bulle indique « vélos autorisés ».
 
 ## Mettre à jour
 
@@ -43,8 +50,9 @@ Python 3 et `curl` suffisent, sans dépendance à installer.
 2. Tracer la ligne et renseigner les propriétés :
    - `identifiant` : slug unique (`liaison-bourg-le-bono`)
    - `nom` : libellé affiché
-   - `categorie` : `programme` (voté, financé, en travaux) ou `intention` (demandé, promis, discontinuité)
+   - `categorie` : type, parmi `velo`, `partage`, `pieton`, `chemin_rural` (couleur et sous-couche)
    - `statut` : `à venir`
+   - `engagement` : `programme` (voté, financé, en travaux), `intention` (étudié, évoqué) ou `promesse` (campagne électorale)
    - `avancement`, `type_amenagement`, `echeance` : texte libre
    - `trace` : préciser s'il est indicatif ou issu d'un plan
    - `source`, `source_url` : délibération, bulletin municipal, schéma GMVA…
@@ -68,16 +76,24 @@ les mêmes fonds IGN (Plan IGN, photos aériennes, cadastre…). Procédure test
 4. Une fenêtre propose de se connecter pour enregistrer : **Annuler** suffit pour consulter.
    La couche s'affiche avec ses couleurs, et un clic sur un tronçon ouvre sa fiche.
 
-Importer séparément `…-existant.kml` et `…-a-venir.kml` permet d'afficher ou masquer chaque statut
-dans le gestionnaire de couches, et de les superposer au cadastre ou aux photos aériennes.
+**Si rien ne s'affiche, importer une seconde fois.** Constaté le 18/11/2026 : le premier import
+après l'ouverture de la page crée une couche vide, quel que soit le fichier ; les suivants s'affichent.
+
+Pour tout voir d'un coup, importer `plougoumelen-mobilites-douces.kml`. Pour pouvoir afficher ou masquer
+chaque type dans le gestionnaire de couches, importer plutôt les sous-couches une par une.
+cartes.gouv.fr n'affiche pas de légende pour les couches importées : voir la légende ci-dessus.
 
 ### Import par URL (sans télécharger de fichier)
 
 À l'étape 3, choisir **par URL** et coller l'une de ces adresses (testé le 17/11/2026) :
 
 - tout : `https://raw.githubusercontent.com/nicohery/plougoumelen-mobilites/master/dist/plougoumelen-mobilites-douces.kml`
-- existant : `https://raw.githubusercontent.com/nicohery/plougoumelen-mobilites/master/dist/plougoumelen-mobilites-douces-existant.kml`
-- à venir : `https://raw.githubusercontent.com/nicohery/plougoumelen-mobilites/master/dist/plougoumelen-mobilites-douces-a-venir.kml`
+- vélo, existant : `https://raw.githubusercontent.com/nicohery/plougoumelen-mobilites/master/dist/plougoumelen-mobilites-douces-velo-existant.kml`
+- vélo, à venir : `https://raw.githubusercontent.com/nicohery/plougoumelen-mobilites/master/dist/plougoumelen-mobilites-douces-velo-a-venir.kml`
+- partagé, existant : `https://raw.githubusercontent.com/nicohery/plougoumelen-mobilites/master/dist/plougoumelen-mobilites-douces-partage-existant.kml`
+- piéton, existant : `https://raw.githubusercontent.com/nicohery/plougoumelen-mobilites/master/dist/plougoumelen-mobilites-douces-pieton-existant.kml`
+- piéton, à venir : `https://raw.githubusercontent.com/nicohery/plougoumelen-mobilites/master/dist/plougoumelen-mobilites-douces-pieton-a-venir.kml`
+- chemin rural, existant : `https://raw.githubusercontent.com/nicohery/plougoumelen-mobilites/master/dist/plougoumelen-mobilites-douces-chemin-rural-existant.kml`
 
 Ces adresses suivent la branche `master` : chaque mise à jour poussée est visible au prochain import.
 
@@ -92,12 +108,17 @@ que ce soit par fichier ou par URL. Pour partager la carte, il y a trois solutio
 ## Sources
 
 - **Existant** : © contributeurs OpenStreetMap, licence ODbL. Attribution obligatoire en cas de diffusion.
-- **À venir** (novembre 2026) : aucun projet voté ou financé n'a été trouvé dans les sources publiques.
-  Les deux liaisons présentes sont les discontinuités citées par la liste « Construisons demain
-  Plougoumelen » dans ses [réponses au questionnaire Vélomotive](https://velomotive.fr/wp-content/uploads/2026/03/Reponses-Guillemot-Plougoumelen-1.pdf)
+- **À venir, vélo** (novembre 2026) : les deux liaisons sont des **promesses de campagne**, les
+  discontinuités citées par la liste « Construisons demain Plougoumelen » dans ses [réponses au questionnaire Vélomotive](https://velomotive.fr/wp-content/uploads/2026/03/Reponses-Guillemot-Plougoumelen-1.pdf)
   (mars 2026) : « Axe Plougoumelen Ploeren et Plougoumelen Lérion/Keneah ».
   Leur tracé est **indicatif** : itinéraire routier le plus court calculé par le
   [service d'itinéraire IGN](https://geoservices.ign.fr/documentation/services/services-geoplateforme/itineraire).
+- **À venir, piéton** (novembre 2026) : traversée du stade de Kergouguec, chemin de Lestréviau autour
+  de l'étang, chemin camping de la Fontaine du Hallate ↔ Lestréviau (acquisition de la parcelle F 92),
+  continuité Jardins du Golfe ↔ Jardins du Len. Projets **signalés par un contributeur**, sans délibération
+  identifiée. Les chemins communaux sont tracés d'après les bandes non cadastrées du
+  [plan cadastral Etalab](https://cadastre.data.gouv.fr/datasets/cadastre-etalab) ; les autres
+  tronçons sont indicatifs (le détail figure dans la bulle de chaque tracé).
 - Pistes à creuser pour compléter : délibérations du conseil municipal, bulletin municipal,
   schéma cyclable de Golfe du Morbihan Vannes Agglomération (GMVA), plan vélo du Département
   (routes départementales D101E, D765, D127), collectif vélo de Plougoumelen, Vélomotive.

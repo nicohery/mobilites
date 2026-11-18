@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Plougoumelen – Chemin rural – existant</name>
+<Style id="velo"><LineStyle><color>e641961a</color><width>5</width></LineStyle></Style>
+<Style id="velo_programme"><LineStyle><color>e641961a</color><width>6</width></LineStyle></Style>
+<Style id="velo_intention"><LineStyle><color>e641961a</color><width>4</width></LineStyle></Style>
+<Style id="velo_promesse"><LineStyle><color>e641961a</color><width>2</width></LineStyle></Style>
+<Style id="partage"><LineStyle><color>e69da900</color><width>5</width></LineStyle></Style>
+<Style id="partage_programme"><LineStyle><color>e69da900</color><width>6</width></LineStyle></Style>
+<Style id="partage_intention"><LineStyle><color>e69da900</color><width>4</width></LineStyle></Style>
+<Style id="partage_promesse"><LineStyle><color>e69da900</color><width>2</width></LineStyle></Style>
+<Style id="pieton"><LineStyle><color>e6b67b2c</color><width>3</width></LineStyle></Style>
+<Style id="pieton_programme"><LineStyle><color>e6b67b2c</color><width>6</width></LineStyle></Style>
+<Style id="pieton_intention"><LineStyle><color>e6b67b2c</color><width>4</width></LineStyle></Style>
+<Style id="pieton_promesse"><LineStyle><color>e6b67b2c</color><width>2</width></LineStyle></Style>
+<Style id="chemin_rural"><LineStyle><color>e61d76a6</color><width>2</width></LineStyle></Style>
+<Style id="chemin_rural_programme"><LineStyle><color>e61d76a6</color><width>6</width></LineStyle></Style>
+<Style id="chemin_rural_intention"><LineStyle><color>e61d76a6</color><width>4</width></LineStyle></Style>
+<Style id="chemin_rural_promesse"><LineStyle><color>e61d76a6</color><width>2</width></LineStyle></Style>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : stabilisé<br/><b>Longueur</b> : 851 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/244169045" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.885693,47.651197 -2.885286,47.650797 -2.885222,47.650654 -2.885160,47.650538 -2.885023,47.650391 -2.884385,47.649900 -2.884264,47.649797 -2.883941,47.649570 -2.883678,47.649429 -2.883289,47.649279 -2.882730,47.649102 -2.882588,47.649125 -2.882421,47.649046 -2.882179,47.648888 -2.882054,47.648696 -2.881905,47.648445 -2.881826,47.648334 -2.881740,47.648288 -2.881566,47.648282 -2.880828,47.648284 -2.879395,47.648278 -2.879190,47.648299 -2.878915,47.648359 -2.878702,47.648437 -2.878473,47.648520 -2.878028,47.648650 -2.878077,47.648803 -2.878097,47.648953 -2.878026,47.649051 -2.877783,47.649098 -2.877518,47.649153 -2.877415,47.649225 -2.877385,47.649308</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : enrobé<br/><b>Longueur</b> : 67 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/244169484" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.887854,47.651115 -2.887995,47.651080 -2.888450,47.651004 -2.888664,47.650943 -2.888682,47.650918</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : stabilisé<br/><b>Longueur</b> : 75 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/279786097" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.893831,47.643249 -2.893718,47.643206 -2.893678,47.643127 -2.893673,47.643047 -2.893707,47.642993 -2.893760,47.642950 -2.893870,47.642949 -2.894201,47.643035</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 922 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/302139011" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.894660,47.678002 -2.894151,47.677717 -2.893656,47.677531 -2.893023,47.677389 -2.892361,47.677311 -2.891589,47.677267 -2.891145,47.677281 -2.890512,47.677335 -2.890294,47.677330 -2.889966,47.677198 -2.889588,47.677066 -2.889333,47.676963 -2.889202,47.676870 -2.889173,47.676767 -2.889180,47.676698 -2.891429,47.675909 -2.891866,47.675968 -2.892528,47.676061 -2.893176,47.676203 -2.893598,47.676272 -2.893809,47.676345 -2.893969,47.676419 -2.894318,47.676502 -2.894675,47.676512 -2.894857,47.676499</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Vélo</b> : vélos autorisés<br/><b>Longueur</b> : 418 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/302139012" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.894416,47.678425 -2.895038,47.678806 -2.895109,47.678854 -2.895144,47.678922 -2.895237,47.679059 -2.895405,47.679139 -2.895555,47.679190 -2.895723,47.679240 -2.896151,47.679333 -2.896323,47.679389 -2.896416,47.679428 -2.896505,47.679487 -2.896894,47.679954 -2.896982,47.680017 -2.897048,47.680040 -2.897163,47.680076 -2.898652,47.680460 -2.898807,47.680448</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Longueur</b> : 941 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/302146573" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.907306,47.658757 -2.907642,47.658636 -2.908022,47.658499 -2.908667,47.658178 -2.909118,47.657946 -2.909321,47.657511 -2.909480,47.657160 -2.909639,47.656976 -2.909816,47.656803 -2.910090,47.656410 -2.910275,47.656184 -2.910390,47.656047 -2.910620,47.656023 -2.910708,47.655910 -2.910867,47.655684 -2.911018,47.655636 -2.911239,47.655565 -2.911521,47.655476 -2.911654,47.655363 -2.911786,47.654821 -2.912034,47.654398 -2.912343,47.654208 -2.912555,47.654117 -2.912780,47.654021 -2.912871,47.653978 -2.912929,47.653957 -2.913154,47.653880 -2.913249,47.653841 -2.913453,47.653759 -2.913619,47.653662 -2.913681,47.653625 -2.913939,47.653415 -2.914160,47.653250 -2.914385,47.653149 -2.914502,47.653121 -2.914649,47.653092 -2.914877,47.652963 -2.915049,47.652853 -2.915124,47.652822 -2.915246,47.652796</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Longueur</b> : 141 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/302156374" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.913275,47.657765 -2.913993,47.657891 -2.914296,47.657948 -2.914653,47.658015 -2.914863,47.658059 -2.914961,47.658073 -2.915036,47.657993</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 1981 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/302156380" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.888290,47.667590 -2.887754,47.667522 -2.887367,47.667462 -2.886970,47.667381 -2.886527,47.667261 -2.886275,47.667188 -2.885878,47.667054 -2.885635,47.666932 -2.885320,47.666797 -2.885103,47.666731 -2.884902,47.666673 -2.884772,47.666713 -2.884608,47.666775 -2.884408,47.666892 -2.884260,47.666983 -2.883827,47.667332 -2.883249,47.667802 -2.881352,47.669185 -2.881240,47.669225 -2.881162,47.669226 -2.881108,47.669194 -2.880516,47.668457 -2.880431,47.668432 -2.880362,47.668446 -2.880323,47.668512 -2.880313,47.668561 -2.880253,47.668599 -2.880175,47.668644 -2.880149,47.668764 -2.880142,47.668813 -2.879968,47.669354 -2.879899,47.669471 -2.879814,47.669581 -2.879742,47.669705 -2.879758,47.669765 -2.879768,47.669820 -2.879817,47.669871 -2.879889,47.669913 -2.879933,47.669985 -2.879879,47.670045 -2.879711,47.670107 -2.879423,47.670165 -2.879158,47.670304 -2.879063,47.670312 -2.878909,47.670403 -2.878856,47.670454 -2.878748,47.670445 -2.878689,47.670391 -2.878528,47.670266 -2.878316,47.670169 -2.878160,47.670083 -2.877904,47.670010 -2.877694,47.669981 -2.877528,47.669959 -2.877301,47.669915 -2.877077,47.669875 -2.876913,47.669855 -2.876677,47.669798 -2.876456,47.669731 -2.876392,47.669674 -2.876254,47.669586 -2.876119,47.669469 -2.876004,47.669378 -2.875906,47.669283 -2.875555,47.668850 -2.875404,47.668682 -2.875345,47.668576 -2.875279,47.668393 -2.875286,47.668302 -2.875332,47.668211 -2.875456,47.668024 -2.875545,47.667849 -2.875571,47.667736 -2.875581,47.667628 -2.875581,47.667540 -2.875555,47.667460 -2.875522,47.667350 -2.875460,47.667252 -2.875220,47.666985 -2.875089,47.666861 -2.874925,47.666764 -2.874794,47.666762 -2.874331,47.666755 -2.873963,47.666773 -2.873662,47.666773 -2.873251,47.666806 -2.873015,47.666786 -2.872835,47.666746 -2.872635,47.666698 -2.872494,47.666682 -2.872333,47.666709 -2.872136,47.666773 -2.871700,47.666915 -2.871270,47.667029 -2.871033,47.667080 -2.870866,47.667113 -2.870690,47.667136</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 80 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/302156381" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.878856,47.670454 -2.879193,47.671132</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Vélo</b> : vélos autorisés<br/><b>Longueur</b> : 491 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/302156669" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.925045,47.636760 -2.925248,47.636581 -2.925589,47.636315 -2.925788,47.636053 -2.926097,47.635689 -2.926513,47.635230 -2.926767,47.634979 -2.926983,47.634735 -2.927599,47.633318 -2.927691,47.633299 -2.927815,47.633321 -2.928361,47.633369</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 382 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/406625109" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.896110,47.681207 -2.895879,47.681335 -2.895748,47.681451 -2.895496,47.681776 -2.895053,47.682426 -2.894707,47.682957 -2.894307,47.683647 -2.894157,47.683948 -2.893996,47.684117 -2.893892,47.684268</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 228 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/430483629" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.888483,47.641867 -2.888494,47.641916 -2.888375,47.642252 -2.888259,47.642513 -2.888185,47.642558 -2.888023,47.642658 -2.887966,47.642711 -2.887922,47.642788 -2.887925,47.642955 -2.887940,47.643012 -2.887968,47.643073 -2.888107,47.643144 -2.888136,47.643194 -2.888154,47.643276 -2.888097,47.643389 -2.887971,47.643501 -2.887816,47.643547 -2.887677,47.643580</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : stabilisé<br/><b>Longueur</b> : 152 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/430483635" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.888396,47.639166 -2.888109,47.639404 -2.887646,47.639869 -2.887432,47.640111 -2.887406,47.640176 -2.887398,47.640329</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 87 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/538535915" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.910378,47.665738 -2.910376,47.665535 -2.910464,47.664960</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : gravier<br/><b>Longueur</b> : 510 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/830259520" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.880250,47.638622 -2.880318,47.638647 -2.881438,47.639170 -2.883112,47.639962 -2.884765,47.640769 -2.885818,47.641266</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 157 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/835116317" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.899794,47.656912 -2.899679,47.657101 -2.899660,47.657492 -2.899563,47.657786 -2.899421,47.658064 -2.899228,47.658241</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Longueur</b> : 249 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/835261278" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.895892,47.645189 -2.895416,47.645084 -2.894853,47.645015 -2.894247,47.644892 -2.892761,47.644455</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Longueur</b> : 158 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/835261279" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.895892,47.645189 -2.896210,47.645232 -2.897074,47.645489 -2.897911,47.645481</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 182 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/840321519" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.918900,47.630785 -2.918893,47.630984 -2.918901,47.631159 -2.918958,47.631277 -2.919017,47.631315 -2.919411,47.631514 -2.919615,47.631581 -2.919884,47.631650 -2.920446,47.631796</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Longueur</b> : 111 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/840321520" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.920637,47.630799 -2.920406,47.631002 -2.919904,47.631541 -2.919884,47.631650</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 56 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/863903620" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.910637,47.630953 -2.910699,47.631084 -2.910715,47.631207 -2.910693,47.631288 -2.910613,47.631357 -2.910536,47.631402</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 25 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/888626704" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.929819,47.647870 -2.929831,47.647927 -2.929861,47.647988 -2.929888,47.648086</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 277 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/943998765" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.885899,47.641224 -2.885818,47.641266 -2.885630,47.641495 -2.885437,47.641630 -2.885295,47.641811 -2.884944,47.642080 -2.884678,47.642232 -2.884222,47.642622 -2.883764,47.642967 -2.883580,47.643080 -2.883519,47.643098</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : stabilisé<br/><b>Longueur</b> : 121 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1278748859" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.915036,47.657993 -2.915107,47.657833 -2.915285,47.657786 -2.916025,47.657633 -2.916389,47.657521</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Longueur</b> : 130 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1339142898" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.886033,47.651831 -2.885466,47.652117 -2.885200,47.652370 -2.884957,47.652486 -2.884714,47.652572</coordinates></LineString>
+</Placemark>
+<Placemark>
+<name>Chemin rural ou d'exploitation</name>
+<description><![CDATA[<b>Type</b> : Chemin rural ou d'exploitation<br/><b>Statut</b> : existant<br/><b>Longueur</b> : 223 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/1445374539" target="_blank">Voir la source</a>]]></description>
+<styleUrl>#chemin_rural</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.892535,47.656203 -2.892497,47.656283 -2.892591,47.656460 -2.892812,47.656694 -2.892885,47.656791 -2.892926,47.656966 -2.892915,47.657096 -2.892757,47.657350 -2.892466,47.657771 -2.892390,47.657850 -2.892159,47.657979</coordinates></LineString>
+</Placemark>
+</Document>
+</kml>

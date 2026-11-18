@@ -36,13 +36,21 @@ out tags geom;
 """
 
 CATEGORIES = {
-    "piste_bande_cyclable": {"label": "Piste ou bande cyclable", "color": "#1a9641", "width": 5, "status": "existant"},
-    "voie_partagee": {"label": "Voie verte / chemin partagé piétons-vélos", "color": "#00a99d", "width": 5, "status": "existant"},
-    "cheminement_pieton": {"label": "Sentier ou cheminement piéton", "color": "#2c7bb6", "width": 3, "status": "existant"},
-    "chemin_rural": {"label": "Chemin rural ou d'exploitation", "color": "#a6761d", "width": 2, "status": "existant"},
-    "programme": {"label": "Aménagement programmé (voté ou financé)", "color": "#f28e2b", "width": 7, "status": "à venir"},
-    "intention": {"label": "Liaison à créer (discontinuité, demande ou engagement)", "color": "#d6006f", "width": 7, "status": "à venir"},
+    "velo": {"short_label": "Vélo", "label": "Vélo : piste ou bande cyclable", "color": "#1a9641", "width": 5},
+    "partage": {"short_label": "Partagé", "label": "Partagé piétons-vélos : voie verte", "color": "#00a99d", "width": 5},
+    "pieton": {"short_label": "Piéton", "label": "Piéton : sentier, cheminement", "color": "#2c7bb6", "width": 3},
+    "chemin_rural": {"short_label": "Chemin rural", "label": "Chemin rural ou d'exploitation", "color": "#a6761d", "width": 2},
 }
+ENGAGEMENTS = {
+    "programme": {"label": "Voté ou financé", "width": 6},
+    "intention": {"label": "Étudié ou évoqué (conseil, bulletin)", "width": 4},
+    "promesse": {"label": "Promesse de campagne (municipales 2026)", "width": 2},
+}
+
+STATUSES = {"existant": "existant", "a-venir": "à venir"}
+
+DOT_LENGTH_METERS = 20
+DOT_GAP_METERS = 30
 
 SURFACE_LABELS = {
     "asphalt": "enrobé",
@@ -93,28 +101,62 @@ def classify(tags):
     highway = tags.get("highway", "")
     cycleway_values = {tags.get(key, "") for key in ("cycleway", "cycleway:both", "cycleway:left", "cycleway:right")}
     if highway == "cycleway" or cycleway_values & {"lane", "track"}:
-        return "piste_bande_cyclable"
+        return "velo"
     if highway in ("path", "footway", "pedestrian", "bridleway", "track") and tags.get("bicycle") == "designated":
-        return "voie_partagee"
+        return "partage"
     if highway in ("path", "footway", "pedestrian", "steps", "bridleway"):
-        return "cheminement_pieton"
+        return "pieton"
     if highway == "track":
         return "chemin_rural"
     return None
 
 
+def distance_in_meters(start, end):
+    (start_longitude, start_latitude), (end_longitude, end_latitude) = start, end
+    delta_latitude = math.radians(end_latitude - start_latitude)
+    delta_longitude = math.radians(end_longitude - start_longitude)
+    haversine = (
+        math.sin(delta_latitude / 2) ** 2
+        + math.cos(math.radians(start_latitude)) * math.cos(math.radians(end_latitude)) * math.sin(delta_longitude / 2) ** 2
+    )
+    return 2 * 6371008.8 * math.asin(math.sqrt(haversine))
+
+
 def length_in_meters(coordinates):
-    earth_radius = 6371008.8
-    total = 0.0
-    for (start_longitude, start_latitude), (end_longitude, end_latitude) in zip(coordinates, coordinates[1:]):
-        delta_latitude = math.radians(end_latitude - start_latitude)
-        delta_longitude = math.radians(end_longitude - start_longitude)
-        haversine = (
-            math.sin(delta_latitude / 2) ** 2
-            + math.cos(math.radians(start_latitude)) * math.cos(math.radians(end_latitude)) * math.sin(delta_longitude / 2) ** 2
-        )
-        total += 2 * earth_radius * math.asin(math.sqrt(haversine))
-    return total
+    return sum(distance_in_meters(start, end) for start, end in zip(coordinates, coordinates[1:]))
+
+
+def dotted_segments(coordinates):
+    """KML has no dash style, so a dotted line is drawn as many short separate segments."""
+    segments = []
+    current_segment = []
+    position_in_cycle = 0.0
+    cycle_length = DOT_LENGTH_METERS + DOT_GAP_METERS
+    for start, end in zip(coordinates, coordinates[1:]):
+        segment_length = distance_in_meters(start, end)
+        travelled = 0.0
+        while travelled < segment_length:
+            drawing = position_in_cycle < DOT_LENGTH_METERS
+            boundary = DOT_LENGTH_METERS if drawing else cycle_length
+            step = min(boundary - position_in_cycle, segment_length - travelled)
+            ratio_start = travelled / segment_length
+            ratio_end = (travelled + step) / segment_length
+            point_start = [start[0] + (end[0] - start[0]) * ratio_start, start[1] + (end[1] - start[1]) * ratio_start]
+            point_end = [start[0] + (end[0] - start[0]) * ratio_end, start[1] + (end[1] - start[1]) * ratio_end]
+            if drawing:
+                if not current_segment:
+                    current_segment.append(point_start)
+                current_segment.append(point_end)
+            travelled += step
+            position_in_cycle += step
+            if position_in_cycle >= cycle_length:
+                position_in_cycle = 0.0
+            if drawing and position_in_cycle >= DOT_LENGTH_METERS:
+                segments.append(current_segment)
+                current_segment = []
+    if len(current_segment) > 1:
+        segments.append(current_segment)
+    return segments
 
 
 def existing_features(overpass_result):
@@ -144,9 +186,11 @@ def existing_features(overpass_result):
 def planned_features():
     collection = json.loads(PLANNED_SOURCE_FILE.read_text(encoding="utf-8"))
     for feature in collection["features"]:
-        category = feature["properties"].get("categorie")
-        if category not in ("programme", "intention"):
-            sys.exit("%s: unknown categorie %r in %s" % (feature["properties"].get("identifiant"), category, PLANNED_SOURCE_FILE.name))
+        properties = feature["properties"]
+        if properties.get("categorie") not in CATEGORIES:
+            sys.exit("%s: categorie must be one of %s" % (properties.get("identifiant"), ", ".join(CATEGORIES)))
+        if properties.get("engagement") not in ENGAGEMENTS:
+            sys.exit("%s: engagement must be one of %s" % (properties.get("identifiant"), ", ".join(ENGAGEMENTS)))
     return collection["features"]
 
 
@@ -155,10 +199,45 @@ def kml_color(hex_color, opacity):
     return "%02x%s%s%s" % (round(opacity * 255), blue, green, red)
 
 
+def line_style(properties):
+    """Colour tells the type, dots tell a planned link, and a planned link's width tells how firm the commitment is."""
+    if properties["statut"] == "existant":
+        return LINE_STYLES[properties["categorie"]]
+    return LINE_STYLES["%s_%s" % (properties["categorie"], properties["engagement"])]
+
+
+def line_styles():
+    styles = {}
+    for category_key, category in CATEGORIES.items():
+        styles[category_key] = {"color": category["color"], "width": category["width"], "dotted": False}
+        for engagement_key, engagement in ENGAGEMENTS.items():
+            styles["%s_%s" % (category_key, engagement_key)] = {"color": category["color"], "width": engagement["width"], "dotted": True}
+    return {style_id: {**style, "id": style_id} for style_id, style in styles.items()}
+
+
+LINE_STYLES = line_styles()
+
+
+def line_style_declarations():
+    """cartes.gouv.fr imports lines with an inline style, or a style id holding digits and hyphens, as invisible."""
+    return [
+        '<Style id="%s"><LineStyle><color>%s</color><width>%d</width></LineStyle></Style>'
+        % (style["id"], kml_color(style["color"], 0.9), style["width"])
+        for style in LINE_STYLES.values()
+    ]
+
+
+def draw_order(feature):
+    """Later placemarks are drawn on top: planned links above existing ones, cycling above walking."""
+    properties = feature["properties"]
+    return properties["statut"] != "existant", -list(CATEGORIES).index(properties["categorie"])
+
+
 def description_html(properties):
     labels = [
         ("categorie", "Type"),
         ("statut", "Statut"),
+        ("engagement", "Engagement"),
         ("avancement", "Avancement"),
         ("type_amenagement", "Aménagement prévu"),
         ("echeance", "Échéance"),
@@ -175,6 +254,8 @@ def description_html(properties):
             continue
         if key == "categorie":
             value = CATEGORIES[value]["label"]
+        if key == "engagement":
+            value = ENGAGEMENTS[value]["label"]
         if key == "longueur_m":
             value = "%d m" % value
         rows.append("<b>%s</b> : %s" % (escape(label), escape(str(value))))
@@ -183,46 +264,50 @@ def description_html(properties):
     return "<br/>".join(rows)
 
 
-def build_kml(document_name, document_description, features):
-    used_categories = [category for category in CATEGORIES if any(feature["properties"]["categorie"] == category for feature in features)]
+def coordinates_text(coordinates):
+    return " ".join("%.6f,%.6f" % (longitude, latitude) for longitude, latitude in coordinates)
+
+
+def line_geometry(coordinates, dotted):
+    if not dotted:
+        return "<LineString><tessellate>1</tessellate><coordinates>%s</coordinates></LineString>" % coordinates_text(coordinates)
+    dots = "".join(
+        "<LineString><tessellate>1</tessellate><coordinates>%s</coordinates></LineString>" % coordinates_text(segment)
+        for segment in dotted_segments(coordinates)
+    )
+    return "<MultiGeometry>%s</MultiGeometry>" % dots
+
+
+def line_placemark(name, coordinates, style, description=None):
+    lines = ["<Placemark>", "<name>%s</name>" % escape(name)]
+    if description:
+        lines.append("<description><![CDATA[%s]]></description>" % description)
+    lines += [
+        "<styleUrl>#%s</styleUrl>" % style["id"],
+        line_geometry(coordinates, style["dotted"]),
+        "</Placemark>",
+    ]
+    return lines
+
+
+def build_kml(document_name, features):
     lines = [
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<kml xmlns="http://www.opengis.net/kml/2.2">',
         "<Document>",
         "<name>%s</name>" % escape(document_name),
-        "<description><![CDATA[%s]]></description>" % document_description,
-    ]
-    for category in used_categories:
-        style = CATEGORIES[category]
-        lines += [
-            '<Style id="%s">' % category,
-            "<LineStyle><color>%s</color><width>%d</width></LineStyle>" % (kml_color(style["color"], 0.9), style["width"]),
-            "</Style>",
-        ]
-    for category in used_categories:
-        lines += ["<Folder>", "<name>%s</name>" % escape(CATEGORIES[category]["label"])]
-        for feature in features:
-            properties = feature["properties"]
-            if properties["categorie"] != category:
-                continue
-            coordinates = " ".join("%s,%s" % (longitude, latitude) for longitude, latitude in feature["geometry"]["coordinates"])
-            lines += [
-                "<Placemark>",
-                "<name>%s</name>" % escape(properties["nom"]),
-                "<description><![CDATA[%s]]></description>" % description_html(properties),
-                "<styleUrl>#%s</styleUrl>" % category,
-                "<LineString><tessellate>1</tessellate><coordinates>%s</coordinates></LineString>" % coordinates,
-                "</Placemark>",
-            ]
-        lines.append("</Folder>")
+    ] + line_style_declarations()
+    for feature in sorted(features, key=draw_order):
+        properties = feature["properties"]
+        lines += line_placemark(properties["nom"], feature["geometry"]["coordinates"], line_style(properties), description_html(properties))
     lines += ["</Document>", "</kml>", ""]
     return "\n".join(lines)
 
 
 def with_display_properties(feature):
     properties = dict(feature["properties"])
-    style = CATEGORIES[properties["categorie"]]
-    properties["libelle"] = style["label"]
+    style = line_style(properties)
+    properties["libelle"] = CATEGORIES[properties["categorie"]]["label"]
     properties["stroke"] = style["color"]
     properties["stroke-width"] = style["width"]
     properties["stroke-opacity"] = 0.9
@@ -243,31 +328,38 @@ def main():
         feature["properties"]["longueur_m"] = round(length_in_meters(feature["geometry"]["coordinates"]))
 
     snapshot_date = overpass_result.get("osm3s", {}).get("timestamp_osm_base", "")[:10] or datetime.date.today().isoformat()
-    source_note = (
-        "Existant : OpenStreetMap au %s (%s).<br/>"
-        "À venir : voir data/a-venir.geojson, chaque tracé porte sa source. "
-        "Les tracés « Liaison à créer » sont indicatifs." % (snapshot_date, OSM_ATTRIBUTION)
-    )
-
-    OUTPUT_DIRECTORY.mkdir(exist_ok=True)
     outputs = {
-        "plougoumelen-mobilites-douces-existant.kml": build_kml("Plougoumelen – mobilités douces existantes", source_note, existing),
-        "plougoumelen-mobilites-douces-a-venir.kml": build_kml("Plougoumelen – mobilités douces à venir", source_note, planned),
-        "plougoumelen-mobilites-douces.kml": build_kml("Plougoumelen – mobilités douces", source_note, planned + existing),
+        "plougoumelen-mobilites-douces.kml": build_kml("Plougoumelen – mobilités douces", planned + existing),
         "plougoumelen-mobilites-douces.geojson": json.dumps(
             {"type": "FeatureCollection", "features": [with_display_properties(feature) for feature in planned + existing]},
             ensure_ascii=False,
         ),
     }
+    layer_summary = []
+    for category, style in CATEGORIES.items():
+        for status_slug, status_label in STATUSES.items():
+            layer_features = [
+                feature
+                for feature in planned + existing
+                if feature["properties"]["categorie"] == category and feature["properties"]["statut"] == status_label
+            ]
+            if not layer_features:
+                continue
+            total_length = sum(feature["properties"]["longueur_m"] for feature in layer_features)
+            layer_summary.append("  %-12s %-8s %3d tronçons  %6.1f km" % (style["short_label"], status_label, len(layer_features), total_length / 1000))
+            file_name = "plougoumelen-mobilites-douces-%s-%s.kml" % (category.replace("_", "-"), status_slug)
+            document_name = "Plougoumelen – %s – %s" % (style["short_label"], status_label)
+            outputs[file_name] = build_kml(document_name, layer_features)
+
+    OUTPUT_DIRECTORY.mkdir(exist_ok=True)
+    for stale_file in list(OUTPUT_DIRECTORY.glob("*.kml")) + list(OUTPUT_DIRECTORY.glob("*.geojson")):
+        stale_file.unlink()
     for file_name, content in outputs.items():
         (OUTPUT_DIRECTORY / file_name).write_text(content, encoding="utf-8")
 
     print("OpenStreetMap snapshot: %s" % snapshot_date)
-    for category, style in CATEGORIES.items():
-        matching = [feature for feature in existing + planned if feature["properties"]["categorie"] == category]
-        total_length = sum(feature["properties"]["longueur_m"] for feature in matching)
-        print("  %-55s %3d tronçons  %6.1f km" % (style["label"], len(matching), total_length / 1000))
-    print("Written to %s" % OUTPUT_DIRECTORY)
+    print("\n".join(layer_summary))
+    print("Written %d files to %s" % (len(outputs), OUTPUT_DIRECTORY))
 
 
 if __name__ == "__main__":
