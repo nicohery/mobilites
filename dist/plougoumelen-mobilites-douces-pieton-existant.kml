@@ -19,6 +19,12 @@
 <Style id="chemin_rural_intention"><LineStyle><color>e61d76a6</color><width>4</width></LineStyle></Style>
 <Style id="chemin_rural_promesse"><LineStyle><color>e61d76a6</color><width>2</width></LineStyle></Style>
 <Placemark>
+<name>Traversée du stade de Kergouguec</name>
+<description><![CDATA[<b>Type</b> : Piéton : sentier, cheminement<br/><b>Statut</b> : existant<br/><b>Avancement</b> : Réalisée<br/><b>Revêtement</b> : enrobé, béton et stabilisé<br/><b>Longueur</b> : 331 m<br/><b>Tracé</b> : Voie de service au nord des terrains (OpenStreetMap), tracé confirmé par un contributeur.<br/><b>Source</b> : Signalé par un contributeur de la carte (novembre 2026) : traversée réalisée. Absente de la couche OpenStreetMap, où elle est décrite comme voie de service.]]></description>
+<styleUrl>#pieton</styleUrl>
+<LineString><tessellate>1</tessellate><coordinates>-2.921273,47.648499 -2.921317,47.648500 -2.921400,47.648517 -2.922950,47.648844 -2.923159,47.648880 -2.923342,47.648846 -2.923492,47.648822 -2.923677,47.648790 -2.924093,47.648858 -2.924262,47.648846 -2.924391,47.648823 -2.924653,47.648865 -2.925064,47.648956 -2.925272,47.648989 -2.925450,47.649026 -2.925512,47.649061</coordinates></LineString>
+</Placemark>
+<Placemark>
 <name>Piéton : sentier, cheminement</name>
 <description><![CDATA[<b>Type</b> : Piéton : sentier, cheminement<br/><b>Statut</b> : existant<br/><b>Revêtement</b> : terre<br/><b>Vélo</b> : vélos autorisés<br/><b>Longueur</b> : 136 m<br/><b>Source</b> : © contributeurs OpenStreetMap, licence ODbL<br/><a href="https://www.openstreetmap.org/way/129204483" target="_blank">Voir la source</a>]]></description>
 <styleUrl>#pieton</styleUrl>

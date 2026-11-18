@@ -189,7 +189,9 @@ def planned_features():
         properties = feature["properties"]
         if properties.get("categorie") not in CATEGORIES:
             sys.exit("%s: categorie must be one of %s" % (properties.get("identifiant"), ", ".join(CATEGORIES)))
-        if properties.get("engagement") not in ENGAGEMENTS:
+        if properties.get("statut") not in STATUSES.values():
+            sys.exit("%s: statut must be one of %s" % (properties.get("identifiant"), ", ".join(STATUSES.values())))
+        if properties["statut"] != "existant" and properties.get("engagement") not in ENGAGEMENTS:
             sys.exit("%s: engagement must be one of %s" % (properties.get("identifiant"), ", ".join(ENGAGEMENTS)))
     return collection["features"]
 

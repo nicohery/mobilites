@@ -7,7 +7,7 @@ existants et à venir, à importer sur cartes.gouv.fr (ex-Géoportail) ou dans u
 
 | Fichier | Rôle |
 |---|---|
-| `data/a-venir.geojson` | Projets et liaisons à créer, **saisis à la main**. C'est le fichier à enrichir. |
+| `data/a-venir.geojson` | Projets et liaisons à créer, **saisis à la main**, plus les aménagements réalisés absents d'OpenStreetMap. C'est le fichier à enrichir. |
 | `data/existant-osm.json` | Dernier extrait OpenStreetMap brut (permet de reconstruire hors ligne). |
 | `build.py` | Récupère l'existant dans OpenStreetMap, le classe, fusionne les projets, génère `dist/`. |
 | `dist/plougoumelen-mobilites-douces.kml` | **Tout en un.** |
@@ -51,8 +51,8 @@ Python 3 et `curl` suffisent, sans dépendance à installer.
    - `identifiant` : slug unique (`liaison-bourg-le-bono`)
    - `nom` : libellé affiché
    - `categorie` : type, parmi `velo`, `partage`, `pieton`, `chemin_rural` (couleur et sous-couche)
-   - `statut` : `à venir`
-   - `engagement` : `programme` (voté, financé, en travaux), `intention` (étudié, évoqué) ou `promesse` (campagne électorale)
+   - `statut` : `à venir`, ou `existant` une fois réalisé tant qu'OpenStreetMap ne le montre pas
+   - `engagement` (à venir seulement) : `programme` (voté, financé, en travaux), `intention` (étudié, évoqué) ou `promesse` (campagne électorale)
    - `avancement`, `type_amenagement`, `echeance` : texte libre
    - `trace` : préciser s'il est indicatif ou issu d'un plan
    - `source`, `source_url` : délibération, bulletin municipal, schéma GMVA…
@@ -91,6 +91,7 @@ cartes.gouv.fr n'affiche pas de légende pour les couches importées : voir la l
 - vélo, existant : `https://raw.githubusercontent.com/nicohery/plougoumelen-mobilites/master/dist/plougoumelen-mobilites-douces-velo-existant.kml`
 - vélo, à venir : `https://raw.githubusercontent.com/nicohery/plougoumelen-mobilites/master/dist/plougoumelen-mobilites-douces-velo-a-venir.kml`
 - partagé, existant : `https://raw.githubusercontent.com/nicohery/plougoumelen-mobilites/master/dist/plougoumelen-mobilites-douces-partage-existant.kml`
+- partagé, à venir : `https://raw.githubusercontent.com/nicohery/plougoumelen-mobilites/master/dist/plougoumelen-mobilites-douces-partage-a-venir.kml`
 - piéton, existant : `https://raw.githubusercontent.com/nicohery/plougoumelen-mobilites/master/dist/plougoumelen-mobilites-douces-pieton-existant.kml`
 - piéton, à venir : `https://raw.githubusercontent.com/nicohery/plougoumelen-mobilites/master/dist/plougoumelen-mobilites-douces-pieton-a-venir.kml`
 - chemin rural, existant : `https://raw.githubusercontent.com/nicohery/plougoumelen-mobilites/master/dist/plougoumelen-mobilites-douces-chemin-rural-existant.kml`
@@ -108,17 +109,31 @@ que ce soit par fichier ou par URL. Pour partager la carte, il y a trois solutio
 ## Sources
 
 - **Existant** : © contributeurs OpenStreetMap, licence ODbL. Attribution obligatoire en cas de diffusion.
-- **À venir, vélo** (novembre 2026) : les deux liaisons sont des **promesses de campagne**, les
+- **À venir, promesses de campagne** (novembre 2026) : deux liaisons vélo. Ce sont les
   discontinuités citées par la liste « Construisons demain Plougoumelen » dans ses [réponses au questionnaire Vélomotive](https://velomotive.fr/wp-content/uploads/2026/03/Reponses-Guillemot-Plougoumelen-1.pdf)
   (mars 2026) : « Axe Plougoumelen Ploeren et Plougoumelen Lérion/Keneah ».
   Leur tracé est **indicatif** : itinéraire routier le plus court calculé par le
   [service d'itinéraire IGN](https://geoservices.ign.fr/documentation/services/services-geoplateforme/itineraire).
-- **À venir, piéton** (novembre 2026) : traversée du stade de Kergouguec, chemin de Lestréviau autour
-  de l'étang, chemin camping de la Fontaine du Hallate ↔ Lestréviau (acquisition de la parcelle F 92),
-  continuité Jardins du Golfe ↔ Jardins du Len. Projets **signalés par un contributeur**, sans délibération
-  identifiée. Les chemins communaux sont tracés d'après les bandes non cadastrées du
-  [plan cadastral Etalab](https://cadastre.data.gouv.fr/datasets/cadastre-etalab) ; les autres
-  tronçons sont indicatifs (le détail figure dans la bulle de chaque tracé).
-- Pistes à creuser pour compléter : délibérations du conseil municipal, bulletin municipal,
-  schéma cyclable de Golfe du Morbihan Vannes Agglomération (GMVA), plan vélo du Département
-  (routes départementales D101E, D765, D127), collectif vélo de Plougoumelen, Vélomotive.
+- **À venir, conseil municipal et bulletins** (comptes rendus 2022-2026 et bulletins municipaux 2023-2026) :
+  - **voté** : liaison piétons-vélos Lohenven ↔ rue Jacques Cartier (Ploeren). Les terrains ont été achetés
+    ([délibérations 75-2022 et 08-2024](https://www.plougoumelen.bzh/wp-content/uploads/2024/03/Compte-rendu-Conseil-Municipal-du-22-fevrier-2024.pdf)),
+    mais aucun budget de travaux n'a été trouvé. Le tracé reprend le plan de la délibération, reporté sur le cadastre ;
+  - **étudié ou évoqué** : voie cyclable complexe sportif ↔ pont de Kervilio, et voie cyclable vers Baden par
+    Kermarquer et Toul er Lann ([bulletin de janvier 2025](https://www.plougoumelen.bzh/wp-content/uploads/2025/01/2025_janvier_bulletin_municipal.pdf)).
+    S'y ajoute l'axe cyclable sud-nord Baden ↔ Mériadec du plan vélo de l'agglomération
+    ([Mag de janvier 2024](https://www.plougoumelen.bzh/wp-content/uploads/2024/01/Le-Mag-Janvier-2024.pdf)).
+    Leurs tracés sont indicatifs : ils suivent l'itinéraire IGN par les lieux-dits cités.
+- **Signalé par un contributeur** (novembre 2026) :
+  - à venir : chemin de Lestréviau autour de l'étang jusqu'à la rue de Saint-Thuriau, chemin camping de la Fontaine
+    du Hallate ↔ Lestréviau (acquisition de la parcelle F 92), continuité Jardins du Golfe ↔ Jardins du Len.
+    Aucune délibération n'a été identifiée pour ces projets ;
+  - existant : la traversée du stade de Kergouguec, réalisée. OpenStreetMap la décrit comme voie de service.
+
+  Les chemins communaux sont tracés d'après les bandes non cadastrées du
+  [plan cadastral Etalab](https://cadastre.data.gouv.fr/datasets/cadastre-etalab). Les autres tronçons sont
+  indicatifs ; le détail figure dans la bulle de chaque tracé.
+- Pistes à creuser pour compléter :
+  - les bulletins 2023-2026 non lus et le contenu de la décision modificative du 16/09/2026 ;
+  - le plan de mobilité 2026-2035 de Golfe du Morbihan Vannes Agglomération (GMVA) ;
+  - le plan vélo du Département (routes départementales D101E, D765, D127) ;
+  - le collectif vélo de Plougoumelen et Vélomotive.
