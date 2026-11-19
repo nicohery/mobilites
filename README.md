@@ -125,7 +125,7 @@ que ce soit par fichier ou par URL. Pour partager la carte, il y a trois solutio
     Leurs tracés sont indicatifs : ils suivent l'itinéraire IGN par les lieux-dits cités.
 - **Signalé par un contributeur** (novembre 2026) :
   - à venir : chemin de Lestréviau autour de l'étang jusqu'à la rue de Saint-Thuriau, chemin camping de la Fontaine
-    du Hallate ↔ Lestréviau (acquisition de la parcelle F 92), continuité Jardins du Golfe ↔ Jardins du Len.
+    du Hallate ↔ Lestréviau (achat de la parcelle F 92 en négociation), continuité Jardins du Golfe ↔ Jardins du Len.
     Aucune délibération n'a été identifiée pour ces projets ;
   - existant : la traversée du stade de Kergouguec, réalisée. OpenStreetMap la décrit comme voie de service.
 
