@@ -87,14 +87,14 @@ cartes.gouv.fr n'affiche pas de légende pour les couches importées : voir la l
 
 À l'étape 3, choisir **par URL** et coller l'une de ces adresses (testé le 17/11/2026) :
 
-- tout : `https://raw.githubusercontent.com/nicohery/plougoumelen-mobilites/master/dist/plougoumelen-mobilites-douces.kml`
-- vélo, existant : `https://raw.githubusercontent.com/nicohery/plougoumelen-mobilites/master/dist/plougoumelen-mobilites-douces-velo-existant.kml`
-- vélo, à venir : `https://raw.githubusercontent.com/nicohery/plougoumelen-mobilites/master/dist/plougoumelen-mobilites-douces-velo-a-venir.kml`
-- partagé, existant : `https://raw.githubusercontent.com/nicohery/plougoumelen-mobilites/master/dist/plougoumelen-mobilites-douces-partage-existant.kml`
-- partagé, à venir : `https://raw.githubusercontent.com/nicohery/plougoumelen-mobilites/master/dist/plougoumelen-mobilites-douces-partage-a-venir.kml`
-- piéton, existant : `https://raw.githubusercontent.com/nicohery/plougoumelen-mobilites/master/dist/plougoumelen-mobilites-douces-pieton-existant.kml`
-- piéton, à venir : `https://raw.githubusercontent.com/nicohery/plougoumelen-mobilites/master/dist/plougoumelen-mobilites-douces-pieton-a-venir.kml`
-- chemin rural, existant : `https://raw.githubusercontent.com/nicohery/plougoumelen-mobilites/master/dist/plougoumelen-mobilites-douces-chemin-rural-existant.kml`
+- tout : `https://raw.githubusercontent.com/nicohery/mobilites/master/dist/plougoumelen-mobilites-douces.kml`
+- vélo, existant : `https://raw.githubusercontent.com/nicohery/mobilites/master/dist/plougoumelen-mobilites-douces-velo-existant.kml`
+- vélo, à venir : `https://raw.githubusercontent.com/nicohery/mobilites/master/dist/plougoumelen-mobilites-douces-velo-a-venir.kml`
+- partagé, existant : `https://raw.githubusercontent.com/nicohery/mobilites/master/dist/plougoumelen-mobilites-douces-partage-existant.kml`
+- partagé, à venir : `https://raw.githubusercontent.com/nicohery/mobilites/master/dist/plougoumelen-mobilites-douces-partage-a-venir.kml`
+- piéton, existant : `https://raw.githubusercontent.com/nicohery/mobilites/master/dist/plougoumelen-mobilites-douces-pieton-existant.kml`
+- piéton, à venir : `https://raw.githubusercontent.com/nicohery/mobilites/master/dist/plougoumelen-mobilites-douces-pieton-a-venir.kml`
+- chemin rural, existant : `https://raw.githubusercontent.com/nicohery/mobilites/master/dist/plougoumelen-mobilites-douces-chemin-rural-existant.kml`
 
 Ces adresses suivent la branche `master` : chaque mise à jour poussée est visible au prochain import.
 
